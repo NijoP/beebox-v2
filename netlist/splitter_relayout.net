@@ -1,0 +1,305 @@
+PROTEL NETLIST 2.0
+[
+DESIGNATOR
+J1
+FOOTPRINT
+FFC-SMD_12P-P0.50_FH34SRJ-12S-0.5SH
+PARTTYPE
+FH34SRJ-12S-0.5SH(50)
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge1
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FH34SRJ-12S-0.5SH(50)
+Designator
+J1
+Device
+FH34SRJ-12S-0.5SH(50)
+LCSC Part Name
+
+Supplier Part
+FH34SRJ-12S-0.5SH(50).1
+Manufacturer
+HRS(广濑)
+Manufacturer Part
+FH34SRJ-12S-0.5SH(50)
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+FFC-SMD_12P-P0.50_FH34SRJ-12S-0.5SH
+Locking Feature
+
+Contact Type
+
+Number of Contacts
+
+Pitch
+
+Mounting Type
+
+FFC, FCB Thickness
+
+Height Above Board
+
+Contact Material
+
+Contact Plating
+
+Operating Temperature
+
+Rated Voltage (Max)
+
+Current Rating (Max)
+
+Storage Temperature
+
+FPC/FFC Lock
+
+Forward Foot / Back Foot
+
+Name
+FH34SRJ-12S-0.5SH(50)
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+J2
+FOOTPRINT
+HDR-TH_12P-P2.54-V-M-R2-C6-S2.54
+PARTTYPE
+HDR-M_2.54_2x6
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge2
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+J2
+Symbol
+HDR-M-2.54_2x6
+Device
+HDR-M_2.54_2x6
+Supplier Footprint
+
+3D Model Title
+HDR2.54-M-LI-2X6P
+Description
+
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+HDR-M-2.54_2x6.1
+
+*
+]
+[
+DESIGNATOR
+D1
+FOOTPRINT
+USON-10_L2.5-W1.0-P0.50-BL
+PARTTYPE
+TPD4E05U06DQAR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge3
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPD4E05U06DQAR
+Designator
+D1
+Device
+TPD4E05U06DQAR
+LCSC Part Name
+
+Supplier Part
+TPD4E05U06DQAR.1
+Manufacturer
+
+Manufacturer Part
+TPD4E05U06DQAR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+USON-10_L2.5-W1.0-H0.6-P0.50
+Name
+TPD4E05U06DQAR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D2
+FOOTPRINT
+USON-10_L2.5-W1.0-P0.50-BL
+PARTTYPE
+TPD4E05U06DQAR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge4
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPD4E05U06DQAR
+Designator
+D2
+Device
+TPD4E05U06DQAR
+LCSC Part Name
+
+Supplier Part
+TPD4E05U06DQAR.1
+Manufacturer
+
+Manufacturer Part
+TPD4E05U06DQAR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+USON-10_L2.5-W1.0-H0.6-P0.50
+Name
+TPD4E05U06DQAR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+(
+GND 
+J1-1 FH34SRJ-12S-0.5SH(50)-1 Passive 
+J1-3 FH34SRJ-12S-0.5SH(50)-3 Passive 
+J1-6 FH34SRJ-12S-0.5SH(50)-6 Passive 
+J1-12 FH34SRJ-12S-0.5SH(50)-12 Passive 
+J1-13 FH34SRJ-12S-0.5SH(50)-13 Passive 
+J1-14 FH34SRJ-12S-0.5SH(50)-14 Passive 
+J2-1 HDR-M_2.54_2x6-1 Input   
+J2-12 HDR-M_2.54_2x6-12 Input   
+J2-3 HDR-M_2.54_2x6-3 Input   
+J2-6 HDR-M_2.54_2x6-6 Input   
+D1-3 TPD4E05U06DQAR-GND Passive 
+D1-8 TPD4E05U06DQAR-GND Passive 
+D2-3 TPD4E05U06DQAR-GND Passive 
+D2-8 TPD4E05U06DQAR-GND Passive 
+)
+(
++5V_CHAIN 
+J1-2 FH34SRJ-12S-0.5SH(50)-2 Passive 
+J2-2 HDR-M_2.54_2x6-2 Input   
+)
+(
+SENSOR_CLK 
+J1-4 FH34SRJ-12S-0.5SH(50)-4 Passive 
+J2-4 HDR-M_2.54_2x6-4 Input   
+D1-1 TPD4E05U06DQAR-D1+ Passive 
+)
+(
+SENSOR_SYNC 
+J1-5 FH34SRJ-12S-0.5SH(50)-5 Passive 
+J2-5 HDR-M_2.54_2x6-5 Input   
+D1-2 TPD4E05U06DQAR-D1- Passive 
+)
+(
+SENSOR_DATA_ID 
+J1-7 FH34SRJ-12S-0.5SH(50)-7 Passive 
+J2-7 HDR-M_2.54_2x6-7 Input   
+D1-4 TPD4E05U06DQAR-D2+ Passive 
+)
+(
+PATCH_DATA 
+J1-8 FH34SRJ-12S-0.5SH(50)-8 Passive 
+J2-8 HDR-M_2.54_2x6-8 Input   
+D1-5 TPD4E05U06DQAR-D2- Passive 
+)
+(
+PATCH_CLK 
+J1-9 FH34SRJ-12S-0.5SH(50)-9 Passive 
+J2-9 HDR-M_2.54_2x6-9 Input   
+D2-1 TPD4E05U06DQAR-D1+ Passive 
+)
+(
+PATCH_LATCH 
+J1-10 FH34SRJ-12S-0.5SH(50)-10 Passive 
+J2-10 HDR-M_2.54_2x6-10 Input   
+D2-2 TPD4E05U06DQAR-D1- Passive 
+)
+(
+PATCH_OE_N 
+J1-11 FH34SRJ-12S-0.5SH(50)-11 Passive 
+J2-11 HDR-M_2.54_2x6-11 Input   
+D2-4 TPD4E05U06DQAR-D2+ Passive 
+)

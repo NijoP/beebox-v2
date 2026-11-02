@@ -1,0 +1,708 @@
+BEEBOX V2 | END-TO-END PROJECT REPORT
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026
+BEEBOX
+V2 End-to-End
+Project Report
+Modular honeybee-colony sensor platform | Electrical architecture |
+Expansion headers | Engineering workflow
+PRODUCT INTENT
+A modular sensor system for collecting hive-related environmental and acoustic measurements through one
+main controller and a daisy-chained set of batteryless sensor patches. The updated design adds four auxiliary
+module headers to every patch so users can attach selected external sensors, including methane, CO and other
+compatible modules.
+Document field Value
+Document ID BBX-ENG-PR-003
+Revision 0.2 - Expanded engineering baseline
+Date 01 November 2026
+Architecture One ESP32-S3 main controller + up to 8 sensor patches
+New change 4 auxiliary sensor-module headers per patch: J_AUX1 to J_AUX4
+Status Engineering proposal - conditional GO for prototype; not released for manufacture
+IMPORTANT ENGINEERING STATUS
+This report is an engineering baseline and implementation plan. It does not claim a built prototype, a connected
+EasyEDA API bridge, measured electrical performance, or manufacturing approval. Auxiliary-module compatibility
+depends on final sensor module part numbers and measured power/interface limits.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 2
+Document control and reading guide
+This report extends the earlier Sensor Chain V2 feasibility proposal. It preserves the verified-in-document design intent and records
+the newly requested auxiliary sensor expansion as an engineering change.
+Revision Change summary Status
+0.1 Sensor Chain V2 feasibility baseline: one controller, up to eight MCU-free patches,
+12-contact chain, T/RH or I²S microphone.
+Reference baseline
+0.2 Adds four auxiliary external-module headers to every patch and expands the
+control, switching, power, firmware and validation plan.
+Current working baseline
+Contents
+01 Product purpose and operating concept Page 3
+02 Requirements and scope baseline Page 4
+03 System architecture Page 5
+04 Main controller design Page 6
+05 12-contact chain interface Page 7
+06 Universal sensor patch Page 8
+07 New four-header auxiliary expansion Page 9
+08 Auxiliary interface and power design gates Page 10
+09 Identification and firmware operation Page 11
+10 Power, mechanical and PCB design Page 12
+11 Software tools and API workflow Page 13
+12 Schematic capture and JS scripting methodology Page 14
+13 Component selection and BOM rules Page 15
+14 Verification and acceptance plan Page 16
+15 Risks and engineering stop-gates Page 17
+16 Execution phases and deliverables Page 18
+17 Project files and controlled release Page 19
+18 Open decisions and references Page 20
+HOW TO USE THIS DOCUMENT
+Use this as the project-level source of truth for the next schematic design cycle. Do not treat candidate component
+names, provisional auxiliary-header concepts or untested calculations as manufacturing-ready decisions. Freeze
+those items only after module datasheets, physical drawings and bench evidence are available.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 3
+01. Product purpose and operating concept
+BeeBox V2 is a modular sensing platform intended to place different measurement functions at selected points around a bee colony
+/ hive environment.
+Primary purpose
+Provide a main controller that can discover, select and read sensor functions distributed across up to eight
+daisy-chained sensor patches. The initial patch population supports temperature/humidity sensing or digital I²S
+audio sensing. The new expansion requirement adds four user-accessible headers per patch for optional external
+sensor modules, including gas and environmental modules such as methane and CO sensors.
+What the system is designed to do
+· Collect environmental measurements from a selected temperature/humidity sensor patch.
+· Capture audio from a selected digital I²S microphone patch.
+· Allow optional external modules to be connected through four auxiliary headers on each patch, subject to an
+approved module compatibility list.
+· Use one central controller to manage patch selection, module power, signal routing, identification and
+display/status functions.
+· Scale physically to a maximum of eight patches on one chain, while retaining the same logical 12-contact
+connector interface for FPC and pogo implementations.
+Design principles
+· Centralized control: patches contain no local MCU and no battery; small logic, switching and power devices are
+allowed.
+· One active path: activate and read one patch / one selected external module path at a time unless concurrent
+operation is separately proven.
+· Modularity: use a repeatable patch PCB with clearly labelled ports and replaceable sensor modules.
+· Fail-safe: all sensor power and signal paths default OFF during reset, shift-register updates and fault conditions.
+· Evidence-led release: design calculations, ERC/DRC, netlist checks and physical measurements are required before
+fabrication release.
+PRODUCT BOUNDARY
+This document defines a sensing platform architecture. It does not claim validated bee-health diagnosis,
+colony-health scoring, methane interpretation, CO interpretation, cloud analytics or field performance. Those are
+separate product and algorithm requirements.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 4
+02. Requirements and scope baseline
+Requirements below combine the established Sensor Chain V2 baseline with the new auxiliary-header change.
+Area Requirement for current design iteration
+Main board One ESP32-S3 main controller PCB, one 12-contact sensor-chain connector, separate display interface and
+independent debug/programming access.
+Patch count and topology Maximum eight patches in one physical daisy chain: Main  Patch 1  ...  Patch 8.
+Patch electronics No local MCU and no patch battery. Shift-register, analog switch/mux, ID and load-switch circuitry is
+permitted.
+Primary sensor population One primary type per patch: temperature/humidity OR digital I²S microphone.
+Auxiliary module expansion -
+NEW
+Four additional user-accessible headers on every sensor patch, labelled J_AUX1, J_AUX2, J_AUX3 and
+J_AUX4. Intended for selected external modules such as methane, CO and other compatible sensors.
+Auxiliary concurrency One selected auxiliary port/module path at a time is the safe starting assumption. Four connected modules
+do not imply four simultaneous active channels.
+Patch connections Every patch has 12-way FPC IN and 12-way FPC OUT. Pin 8 is directional through the shift-register cascade,
+not a copper pass-through.
+Power The +3V3_CHAIN rail powers always-on patch logic. Primary sensor power is locally switched. Auxiliary
+module power requires a separate budget and may need 5 V generation or another distribution decision.
+Display Separate 4-wire I²C display connector: GND, +3V3_DISPLAY, DISPLAY_SCL and DISPLAY_SDA.
+Alternate connection Pogo-pin build keeps the same logical 12-signal interface as the FPC chain.
+SCOPE CHANGE CONTROL
+The four auxiliary headers are now part of the project requirement. The earlier "no third sensor class" limitation is
+superseded for expansion planning. However, no specific gas sensor module is approved yet; electrical
+compatibility is not universal and must be proven per module MPN.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 5
+03. System architecture
+The backbone remains a centralized controller and a serial patch chain. Auxiliary module ports are added locally at each patch; they
+do not automatically increase the number of FPC chain contacts.
+Figure 1. Updated logical architecture. Each patch has four auxiliary ports in addition to its primary sensor population.
+Functional partition
+Block Responsibilities
+Main controller PCB ESP32-S3 runtime control; 64-bit shift-register control image; patch scanning; ADC identification;
+sensor bus mode selection; display/status; power supervision and debug.
+12-contact chain Always-on patch logic supply, common grounds, three time-multiplexed sensor/data lines and four
+shift-register control/cascade signals.
+Sensor patch base FPC IN/OUT; one SN74HC595-class control register; local sensor power switch; signal isolation;
+patch type ID; primary T/RH or I²S sensor footprints.
+Auxiliary expansion Four module headers, module-power control, input protection/conditioning, port
+selection/multiplexing and a future module identification strategy.
+Firmware and tools Safe state machine; sensor drivers; module profiles; project-controlled EasyEDA scripts;
+independent validation records.
+IMPORTANT ARCHITECTURAL RULE
+Do not wire all four auxiliary headers directly in parallel to the same signal bus. A selected-port switch/multiplexer
+is required to prevent bus contention, output-driver collisions and accidental powering through signal pins.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 6
+04. Main controller design
+The main board coordinates the complete chain and keeps the display bus separate from the sensor-chain bus.
+Core controller
+The baseline calls for an ESP32-S3 main controller. The exact module MPN, flash/PSRAM option and GPIO map
+must be frozen from the selected module datasheet and the final PCB pin allocation. The shared sensor-data
+GPIO is intended to serve as the ADC input during identification and I²S DIN during microphone capture; that
+alternate peripheral use is a critical bench-validation item.
+Interface Baseline function / design note
+Patch control Four GPIOs: PATCH_SHIFT_DATA, PATCH_SHIFT_CLK, PATCH_LATCH and PATCH_OE_N.
+Sensor clock/sync Two shared GPIOs: I²C SCL/SDA in T/RH mode, or I²S BCLK/WS in microphone mode.
+Sensor data / ID One shared data path: ADC ID measurement during discovery; I²S SD/DIN during microphone
+capture. ADC and I²S modes are mutually exclusive.
+Display Separate 4-wire I²C connector; do not combine display pull-ups with the shared sensor bus.
+Debug Keep USB or UART/JTAG and test pads independent of the sensor chain.
+Power supervision Measure or monitor main regulated rail and battery state as selected in the power design. Exact
+telemetry and battery gauge are TBD.
+Main-board design gates
+· Reserve an ESP32-S3 ADC1-capable GPIO for the ID/data function; the previous repository draft GPIO38 assignment
+is not acceptable as the ADC pin in the feasibility baseline.
+· Confirm that the same selected pad supports I²S DIN under the chosen module and firmware configuration.
+· Confirm the GPIO output levels, bootstrapping constraints, USB/debug needs and antenna keep-out for the exact
+module.
+· Keep display pull-ups and display power independent from the sensor-chain bus.
+· Do not freeze the main PCB power stage until the battery range, maximum patch load and auxiliary-module power
+plan are calculated.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 7
+05. Twelve-contact sensor-chain interface
+This is the current logical interface baseline. The previous repository pin assignment must be replaced consistently in schematics,
+netlists, PCB, firmware and documentation.
+Pin Net name Function Routing rule
+1 GND Ground / return IN-to-OUT pass-through
+2 +3V3_CHAIN Always-on 3.3 V for patch logic and switched sensor input IN-to-OUT pass-through
+3 GND Ground / return IN-to-OUT pass-through
+4 SENSOR_CLK I²C SCL in T/RH mode; I²S BCLK in mic mode IN-to-OUT pass-through
+5 SENSOR_SYNC I²C SDA in T/RH mode; I²S WS in mic mode IN-to-OUT pass-through
+6 GND Ground / signal return IN-to-OUT pass-through
+7 SENSOR_DATA_ID I²S SD during mic capture; ADC ID voltage during discovery IN-to-OUT pass-through
+8 PATCH_SHIFT_DATA Shift data enters local DS; local QH/Q7S exits to next patch Directional through 74HC595
+9 PATCH_SHIFT_CLK Shared shift-register clock IN-to-OUT pass-through
+10 PATCH_LATCH Shared storage latch IN-to-OUT pass-through
+11 PATCH_OE_N Global active-low output enable IN-to-OUT pass-through
+12 GND Ground / return IN-to-OUT pass-through
+PIN 8 IS NOT A NORMAL PASS-THROUGH
+The upstream pin 8 signal connects to the local shift-register serial data input. The local serial output QH/Q7S
+drives pin 8 of the downstream OUT connector. The other listed nets pass through. Verify connector pin numbering
+and mirror orientation using the exact manufacturer drawings before PCB layout.
+Physical connector candidate
+The earlier feasibility baseline lists Hirose FH34SRJ-12S-0.5SH(50) as a candidate 12-position, 0.5 mm-pitch ZIF
+receptacle for a 0.3 mm FPC/FFC. It is not yet a released footprint: verify the exact product drawing, land pattern,
+contact side, insertion direction, stiffener, flex bend and current margin. Pogo contacts are a separate
+mechanical implementation with the same logical pinout. [R2]
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 8
+06. Universal sensor-patch base design
+The patch is a passive controlled node: the main board addresses it through the cascade and selects the local sensor path.
+Figure 2. Patch functional view including the new auxiliary expansion subsystem.
+Circuit block Baseline / required function
+FPC IN / OUT Two 12-position connectors; pass through all shared rails and bus nets except directional shift data on pin 8.
+Shift register One SN74HC595-class 8-bit register per patch. Q0 sensor power, Q1 primary sensor signal enable, Q2 patch
+ID enable. Q3-Q7 are now under review for auxiliary selection/control.
+Primary sensor isolation Three signal paths to the selected sensor plus one switched ID-resistor branch. A CD74HC4066-class device is
+the earlier concept candidate; verify on-resistance, bandwidth, logic thresholds and signal integrity.
+Primary sensor power Local load switch creates the sensor VDD from +3V3_CHAIN. Defined default-off state and discharge behavior
+required.
+Primary sensor population One type per patch: SHT45-class T/RH OR a qualified I²S microphone. Do not populate both as live drivers
+unless the switching design proves safe isolation.
+ID resistor Earlier proposal: 22 k for T/RH and 68 k for mic, selected only when that patch is being identified.
+Recalculate / extend for aux modules.
+Aux headers Four external module ports J_AUX1..J_AUX4 on every patch; each is separately identified in the schematic and
+silkscreen.
+PATCH POPULATION / ASSEMBLY RULE
+For the primary sensor footprints, exactly one of T/RH or I²S mic is populated per patch in the initial architecture.
+Any alternate unpopulated branch must be DNI or isolated so that it cannot load or drive the shared sensor bus.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 9
+07. New requirement: four auxiliary
+headers per patch
+This is the major revision in this report. It allows users to attach selected external modules without changing the basic 12-contact
+chain connector at this stage.
+REQUIREMENT CAPTURED
+Every sensor patch shall include four additional auxiliary module headers, with reference designators J_AUX1,
+J_AUX2, J_AUX3 and J_AUX4. The intent is to connect user-selected modules such as methane, CO and other
+compatible sensors.
+Intended capability
+The four headers are expansion ports, not four new chain contacts. They are physically located on each sensor
+patch and connect through a patch-local power and signal selection subsystem. The same patch still connects to
+the main board using the 12-contact FPC chain. The first implementation should select one auxiliary port at a
+time, power it only when needed, route its signal(s) to the main controller, collect a reading and then return the
+port to a safe inactive state.
+Proposed logical organization
+Port Purpose Electrical status
+J_AUX1 User plug-in module port 1 Header required; exact connector/pinout TBD
+J_AUX2 User plug-in module port 2 Header required; exact connector/pinout TBD
+J_AUX3 User plug-in module port 3 Header required; exact connector/pinout TBD
+J_AUX4 User plug-in module port 4 Header required; exact connector/pinout TBD
+Examples of intended sensor module classes
+· Gas modules: methane / combustible-gas sensing modules, depending on the chosen module technology and
+calibration method.
+· CO modules: NDIR or other digital/analog CO modules, depending on power and interface needs.
+· Other environmental modules: only after their power, signal protocol, voltage range, warm-up time and
+environmental suitability are assessed.
+What this does not yet promise
+The addition of four headers does not mean every module from every vendor is plug-and-play. A methane or CO
+module may use an analog output, I²C, UART, PWM, SPI or another interface; it may require 3.3 V, 5 V or a higher
+supply; and its heater / sensing element may draw far more current than the original T/RH or microphone sensor.
+The project must define an approved module compatibility list.
+SAFE INITIAL OPERATING ASSUMPTION
+One auxiliary module port is selected and measured at a time. Concurrent reading of multiple auxiliary modules is
+a future capability until the mux, power budget and bus protocol are validated.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 10
+08. Auxiliary header electrical design and
+open gates
+The headers must be designed around real sensor modules. The following is the engineering plan, not a frozen electrical pinout.
+Recommended connector concept
+A compact 4-position header is a reasonable starting concept for many modules that use supply, ground and two
+signal contacts: V_AUX, GND, AUX_IO_A and AUX_IO_B. This is a proposal only. Select the actual pin count and
+keying after reviewing the required methane/CO module datasheets. Some modules need more signals, a
+separate analog output, enable, calibration or heater connections and may require a larger connector or a small
+module adapter.
+Interface type Possible use of two signal pins Required design provisions
+Analog output One signal pin carries analog output; second
+may be unused / mode pin.
+Input divider / buffer / filter as required; clamp and ADC range
+protection. Never connect a 5 V analog output directly to an
+ESP32-S3 GPIO.
+I²C AUX_IO_A = SCL; AUX_IO_B = SDA. Level compatibility, pull-up placement, address conflicts, bus
+capacitance and selected-port isolation.
+UART AUX_IO_A / AUX_IO_B as RX/TX by defined
+direction.
+Crossed TX/RX convention, logic voltage matching, baud rate and
+optional level translation.
+PWM / digital One signal can carry PWM or logic state. Input conditioning, level compatibility and firmware capture
+method.
+SPI / multi-wire Two signal pins are generally insufficient for a
+full SPI bus.
+Use a larger connector or dedicated adapter; do not claim SPI
+support on the 4-contact concept.
+Selection, isolation and identification
+· Provide a port-selection network so inactive headers do not load the shared bus and two outputs cannot drive one
+line simultaneously.
+· Provide controlled module power. Prefer a selected-port power path with a load switch and a safe default-off state.
+· Determine whether the existing SN74HC595 outputs Q3-Q7 can implement the required selection or whether a
+second register, decoder or dedicated mux controller is needed.
+· Extend the patch identification strategy. Existing 22 k / 68 k codes only distinguish the primary T/RH and
+microphone classes; they do not identify arbitrary aux module types or four separate ports.
+· Add ESD / transient protection and overvoltage protection based on the external connector exposure and module
+output range.
+POWER WARNING FOR GAS MODULES
+Do not assume that +3V3_CHAIN can power any methane or CO module. Some modules require 5 V or have
+heater / optical-source current demands. A 5 V module may need a dedicated boost rail, extra regulation, current
+limiting or an external supply strategy. Calculate worst-case current through the chain before approving a module.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 11
+09. Identification model and firmware
+operating sequence
+The controller identifies position through the serial shift-register order and identifies sensor type through a switched ID path or a
+future module profile mechanism.
+Existing primary sensor ID proposal
+Patch population R_ID to +3V3_CHAIN Main pull-down Nominal ADC voltage
+No sensor / open Open 100 k to GND ~0 V
+T/RH 22 k, 1% 100 k, 1% ~2.705 V
+I²S microphone 68 k, 1% 100 k, 1% ~1.964 V
+The prior feasibility calculation uses V_ID = V_CHAIN × R_PD / (R_ID + R_PD). Initial windows were: below 0.25 V = empty; 1.70-2.20
+V = microphone; 2.50-2.95 V = T/RH; all other values = invalid. These windows are screening values and require calibration,
+tolerance analysis and ADC tests. They are not suitable as a finished codebook for four new auxiliary ports.
+Updated firmware state machine
+· SAFE_BOOT: hold PATCH_OE_N high; all outputs disabled; verify chain-control GPIO levels.
+· CHAIN_INIT: shift a known zero image through all eight registers; latch; verify bit order using walking-one /
+walking-zero tests.
+· PATCH_DISCOVERY: identify one patch position at a time; select its primary ID path and classify the known primary
+type.
+· AUX_DISCOVERY: select J_AUX1, J_AUX2, J_AUX3 or J_AUX4 individually; apply a future approved ID/configuration
+method and log unknown / absent modules safely.
+· CONFIGURE: select protocol profile (I²C, I²S, UART, analog or supported digital mode), establish pull-ups/levels and
+sensor power.
+· ACQUIRE: wait for module-specific warm-up / startup; collect data and timestamps; perform plausibility and fault
+checks.
+· ISOLATE: disconnect signal path first, disable module power, discharge if required, then advance to next port or
+patch.
+· FAULT: leave the failing path off, record patch position / port / reason, continue only if safe.
+CRITICAL PIN REUSE CHECK
+The shared SENSOR_DATA_ID GPIO must work as an ADC input during identification and I²S DIN during audio
+capture on the exact ESP32-S3 module. Prove this on the bench. If it fails, revise the main-board GPIO or add an
+analog mux / dedicated input.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 12
+10. Power, mechanical and PCB design
+The existing chain rail supports the always-on control logic. The auxiliary modules introduce a new load class that must be budgeted
+explicitly.
+Power architecture
+Rail / block Purpose Design decision
+Battery input Baseline 1-cell LiPo supply. Cell, protection, charger, connector and safe cutoff to be
+confirmed.
+Main 3.3 V ESP32-S3 and main logic. Regulator must cover controller peaks and other board loads.
++3V3_CHAIN Always-on patch logic and input to local
+sensor power switches.
+Budget eight registers, switches, pull-ups, leakage and cable
+drop.
+Primary sensor VDD One selected T/RH or mic sensor at a time. Local patch load switch; default OFF; confirm startup and
+discharge.
+Auxiliary module V_AUX User-selected modules on J_AUX1..4. Voltage options, boost/regulation, current limit and individual
+port switching TBD from chosen module list.
+Display rail Separate display supply / I²C interface. Verify module voltage, address and onboard pull-ups.
+Important baseline regulator note
+The earlier project baseline includes a 1-cell LiPo and a TPS62162-class buck concept. A buck-only regulator
+cannot guarantee a regulated 3.3 V output over the full cell discharge range when input headroom falls below
+the required level. Before freezing V2, choose a suitable buck-boost solution or define and validate a battery
+cutoff that maintains the rail.
+PCB and mechanical rules
+· Keep the FPC connector orientation, pin-1 marking and IN/OUT silkscreen unmistakable; validate with a 1:1 print
+and continuity fixture.
+· Keep gas-sensor openings, acoustic ports and temperature/humidity sensing area clear of enclosure blockage and
+heat sources.
+· Review condensation, dust, propolis, vibration, flex bend radius, connector strain relief and pogo compression /
+cycle life.
+· Place local decoupling close to IC supply pins; tune sensor bypass capacitance from the selected datasheets and
+inrush analysis.
+· Route high-impedance analog measurements away from switching power and fast digital lines; provide ground
+return continuity.
+· Use small footprints where electrically and mechanically appropriate; do not force every passive into a tiny size.
+Power capacitance, voltage rating, tolerance, derating and assembly yield take priority.
+FOOTPRINT NOTE
+When specifying small passives, distinguish metric and imperial package codes. A 0404 metric component is not
+the same physical size as a 0402 imperial component. Freeze every footprint against the actual manufacturer
+package drawing.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 13
+11. Software tools and API integration
+workflow
+The development workflow uses EasyEDA Pro as the schematic authority, with terminal/agent tools for controlled automation and
+review.
+Tool / environment Current project role / observed status
+EasyEDA Pro Schematic and PCB design environment. Screenshot shows EasyEDA Pro V3.2.149 with a new BEE BOX V2
+project and an empty schematic sheet ready for structured capture.
+EasyEDA API Gateway Gateway v1.0.6 is visible in the application, but the screenshot showed "Bridge not found, retrying".
+Connection is NOT yet verified. First task is a bridge handshake / smoke test, without modifying the
+schematic.
+Herdr Windows terminal workspace manager. BeeBox V2 workspace created successfully with workspace ID WA;
+one tab and one root pane were reported.
+Firstmate / Pi agent Agent runtime is visible in the BeeBox V2 Herdr workspace. Use it for task orchestration, controlled
+file/process interaction and engineering review.
+PyAgent / local validation Use where configured for script checks, pin-map comparisons, report generation and repeatable
+validation; exact integration and commands must be confirmed in the installed environment.
+JavaScript scripts Use small, subsystem-specific EasyEDA scripts rather than one large generator.
+Figure 3. Recommended controlled design loop.
+API BRIDGE FIRST TASK
+Before asking an agent to create schematic objects, confirm that the API bridge is discovered, the gateway
+handshake completes, a harmless read-only query succeeds and the project/sheet context is correct. Do not start
+schematic generation while the bridge is retrying.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 14
+12. Schematic capture and JavaScript
+methodology
+Build the design in reviewable increments. Each script must target a named subsystem and preserve all previously accepted work.
+Recommended schematic sheet plan
+Board Sheet / block Scope
+Main M01 Power input Battery connector, protection, charge interface if selected, regulator(s), power
+test points.
+Main M02 ESP32-S3 core Module, boot/reset, programming/debug, decoupling and GPIO map.
+Main M03 Chain control + ADC Shift data/clock/latch/OE, ID ADC, safe-state pull resistors and test points.
+Main M04 12-pin FPC / pogo Exact 12-pin map, connector orientation, labels and continuity points.
+Main M05 Display + status Independent 4-wire I²C display and status LED/test points.
+Patch P01 FPC IN / OUT Two connectors, pin-8 directional cascade, pass-through nets.
+Patch P02 Register + power 74HC595 control, defaults, local load switch and decoupling.
+Patch P03 Primary sensor / ID 4066-class isolation, ID resistor branch, T/RH / microphone population variants.
+Patch P04 AUX1-AUX4 Four module headers, port mux/switch matrix, power selection, protection and
+pin labels.
+Patch P05 Test / assembly Test points, DNI options, variant notes, configuration and manufacturing labels.
+Rules for every JS script
+· Unique script filename, subsystem ID, revision, target project/sheet and expected component references.
+· Use exact library symbols, device mapping, package and manufacturer part number only after validation.
+· Create explicit nets and actual electrical wires; labels alone must not hide missing connections.
+· Include pin-to-net map, placement coordinates, orientation, values, footprints and test points.
+· Avoid destructive clear/delete operations; scripts must be additive or narrowly scoped and safe to rerun where
+possible.
+· After execution, inspect the sheet visually, verify symbol pins and nets, export / compare netlist, run ERC and
+record the result.
+· Only after user acceptance and a saved project revision should the next subsystem script be prepared.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 15
+13. Component selection and BOM rules
+Select components from electrical requirements first, then confirm exact availability, package, lifecycle and footprint mapping.
+Subsystem Candidate / baseline concept Qualification before selection
+Main MCU ESP32-S3 module Exact MPN, memory, antenna / keep-out, GPIO capability, ADC/I²S
+alternate use, supply peaks and lifecycle.
+T/RH Sensirion SHT45 Supply, accuracy, port placement, decoupling, humidity exposure,
+package / footprint. [R8]
+I²S microphone Current-production digital I²S mic; PUI
+DMM-4026-B-I²S family is one candidate
+from prior study.
+Lifecycle, BCLK limits, output format, acoustic port, sample rate and
+full-chain timing. Earlier ICS-43434 baseline is marked EOL. [R9-R11]
+Shift register SN74HC595 Supply range, output current, clock, serial output pin, SRCLR/OE
+behavior, exact package. [R3]
+Signal switching CD74HC4066-class quad switch On-resistance, bandwidth, signal range, logic threshold, off leakage, I²S
+waveform and power-off isolation. [R4]
+Load switch TPS22918-class or qualified alternate Input voltage, current, turn-on behavior, reverse blocking / backfeed,
+discharge and default-off control. [R5]
+AUX signal mux To be selected after module shortlist Number of channels, analog range, R_ON, bandwidth, leakage, signal
+direction, voltage domain and control logic.
+AUX power Possible dedicated boost / regulated rail Per-module voltage/current, heater/inrush, thermal dissipation, chain
+current, protection and run-time impact.
+Connectors 12-way FPC candidate + four auxiliary
+headers per patch
+Exact manufacturer drawing, mating parts, pitch, retention, current,
+orientation and mechanical access.
+BOM acceptance rules
+· Every line must have a unique reference designator, manufacturer, exact MPN, quantity, value, tolerance,
+voltage/current rating, package and footprint.
+· Verify symbol-to-footprint pin mapping and pad numbering against the manufacturer drawing. Check lifecycle and
+at least one alternate for critical parts.
+· Use 0404 metric passives as a compact target only where suitable; choose larger packages when needed for
+capacitance, voltage, current, power, derating or assembly reliability.
+· For external modules, record module MPN, supply voltage, maximum/average current, protocol, logic level,
+warm-up time, calibration needs and output limits.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 16
+14. Verification and acceptance plan
+A clean-looking schematic or successful script execution is not evidence of electrical correctness. Each gate needs a reproducible
+artifact.
+ID Test Acceptance evidence
+V-01 Safe power-up OE_N disables outputs; sensor and auxiliary supplies remain OFF until selected. Scope +
+current log.
+V-02 64-bit chain order Walking-one / walking-zero test maps all eight patches and verifies pin-8 direction.
+Logic-analyser log.
+V-03 Primary patch ID T/RH / mic / empty values classify correctly over tolerance and rail variation. ADC CSV /
+calibration table.
+V-04 Auxiliary port select J_AUX1..4 are individually selected; inactive ports cannot drive or load shared data lines. Test
+report.
+V-05 Auxiliary module power Correct selected rail and current limit at each header; inactive port off; no back-power. DMM /
+current trace.
+V-06 Auxiliary input range Analog and digital signal levels stay within GPIO / ADC limits; protection response recorded.
+Scope + calculations.
+V-07 I²C T/RH Only selected SHT45 responds; bus rise time and sink current pass. I²C capture.
+V-08 I²S microphone Only selected microphone drives SD; capture works at patch 1 and patch 8. Audio file + scope.
+V-09 Aux protocol profiles Each approved module MPN communicates with its defined protocol and expected response.
+Raw logs.
+V-10 Power-off backfeed Inactive module rail and I/O protection paths do not unintentionally energize the sensor.
+Current / voltage log.
+V-11 Full-chain power / SI Patch-8 rail, I²C timing, I²S edge quality and module startup pass at maximum intended chain
+length. Scope.
+V-12 FPC / pogo map All 12 logical contacts, orientation and pin-8 cascade pass automated continuity fixture.
+V-13 Fault recovery Missing module, invalid ID, timeout, reset and open-chain conditions leave all outputs safe.
+Firmware log.
+V-14 Mechanical / thermal No connector lift, flex damage, blocked sensor port, unacceptable heating or enclosure
+interference. Inspection record.
+FIRST PROTOTYPE STOP-GATE
+Build one main controller and two patches first: one T/RH patch and one I²S mic patch. Include an AUX proof on at
+least one patch using representative external module(s). Do not scale to eight patches until chain order, ID,
+primary isolation, aux port switching, module power and back-power tests pass.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 17
+15. Risk register and engineering
+stop-gates
+The auxiliary ports introduce new high-priority risks and do not remove the original V2 electrical risks.
+Risk Impact Mitigation / closure evidence Priority
+Aux module voltage/current
+unknown
+Header may damage module or
+brown out chain.
+Select representative module MPNs; compute
+peak/inrush; define V_AUX and current limit; test patch 8.
+Critical
+Four ports tied together Bus contention, false readings or
+back-power.
+One-of-four mux / switch matrix; verify off isolation and
+port-by-port operation.
+Critical
+Analog output exceeds ADC
+range
+ESP32-S3 damage or incorrect
+readings.
+Input divider / buffer / clamp; tolerance analysis; validate
+maximum fault voltage.
+Critical
+Aux protocol diversity Some modules cannot use two
+shared signal lines.
+Approved compatibility matrix; larger header / adapter for
+unsupported protocols.
+High
+Shift-register outputs
+insufficient
+Control architecture cannot
+select/power all ports safely.
+Reallocate Q3-Q7 only after control budget; add
+register/decoder if needed.
+High
+Aux module ID not defined Firmware cannot identify which
+module/port is present.
+Define resistor ID / EEPROM / configuration profile per
+port; unknown modules fail safe.
+High
+5 V or heater modules on
+3.3 V chain
+Rail collapse, heat or excess
+battery drain.
+Separate boost / power strategy; one-at-a-time power;
+calculate thermal and chain current.
+Critical
+Shared ADC / I²S GPIO fails Patch ID or mic capture cannot
+work as proposed.
+Bench test exact ESP32-S3 module; add mux or revise
+GPIO if necessary.
+Critical
+Mic lifecycle gap BOM obsolescence. Qualify current-production I²S mic and alternate. High
+Long-chain signal
+degradation
+Mic or I²C communication
+unreliable.
+Test full eight-position physical chain; scope at patch 1
+and patch 8.
+Critical
+1S LiPo buck headroom 3.3 V chain rail drops at low
+battery.
+Buck-boost design or validated early cutoff; measure
+under load.
+High
+Connector orientation
+mirrored
+Power or data pins reversed. Manufacturer drawing review, pin-1 marks and 1:1
+continuity fixture.
+Critical
+Mid-chain patch removal Downstream patches become
+unreachable.
+Document service limitation; bypass only if separately
+required.
+Medium
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 18
+16. Execution phases and deliverables
+Recommended work order for efficient use of EasyEDA scripts and agent/model time.
+Phase Work package Exit deliverable / gate
+P0 - Baseline
+update
+Approve four headers per patch; select target module
+families; define patch outline, FPC lengths, battery and
+power envelope.
+Signed requirements + interface control document; open
+questions tracked.
+P1 - Module survey Collect 2-4 representative methane / CO / environmental
+module datasheets and exact MPNs. Build protocol,
+supply and current matrix.
+Approved module shortlist and port compatibility table.
+P2 - Architecture
+closure
+Allocate auxiliary connector pins, supply strategy,
+mux/switch topology, ID model and shift-register controls.
+Updated architecture, GPIO / control map, power budget
+and net dictionary.
+P3 - API / tooling
+setup
+Connect EasyEDA API Gateway; run read-only bridge
+smoke tests; confirm library/API schema and project
+target.
+Verified bridge handshake and safe API test report.
+P4 - Schematic
+capture
+Create main-board sheets and patch sheets as separate
+JS subsystems. Add auxiliary headers and selection/power
+circuitry.
+Complete schematic blocks, component list, netlist and
+pin map.
+P5 - Independent
+audit
+Check symbol/device/footprint mapping, wire
+connectivity, ERC, netlist parity and visual organization.
+Audit report; no unresolved critical pin / net mismatch.
+P6 - Two-patch
+proof
+Fabricate / assemble controller + two patches; test one
+T/RH, one mic and at least one AUX module path.
+Measured prototype report; Gate 6 pass.
+P7 - Eight-position
+validation
+Assemble eight patches; test mixed population, missing
+tail, all port selection, maximum cable and worst-case
+power.
+Eight-patch validation matrix with raw evidence.
+P8 - Controlled
+release
+Close critical/high risks; finalize BOM, Gerbers, drill, PnP,
+assembly drawings, firmware and test fixture.
+Manufacturing release package with revision/change
+control.
+Indicative schedule from the prior feasibility baseline
+The earlier baseline estimated short design phases for requirements, feasibility, schematic/proof-board, and a
+two-patch prototype, followed by a further layout, firmware and eight-patch validation cycle. Those estimates do
+not include fabrication, supplier lead times, customs, assembly queues or redesign. The new auxiliary sensor
+requirement adds module-selection, power and mux design work; schedule must be re-estimated after the
+module shortlist is known.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 19
+17. Project files, working method and
+release package
+Keep all engineering artifacts in the BeeBox V2 project folder and align every update to the same approved revision.
+Recommended deliverable structure
+Folder / artifact Contents
+docs/ Project report, requirements, architecture, component research, BOM, power design, interface guide,
+schematic plan, risk register, validation plan and revision history.
+schematic/ Main-controller and sensor-patch EasyEDA schematics; auxiliary module interface variants.
+easyeda_scripts/ One JavaScript file per subsystem, with metadata, revision and safe update behavior.
+netlist/ Canonical exported netlists, pin-to-net CSVs, connector maps and comparison output.
+bom/ Controlled BOM, alternates, manufacturer drawings, module compatibility matrix and sourcing notes.
+pcb/ PCB source, Gerbers, drill, stack-up, board outlines, fabrication notes, pick-and-place and assembly
+drawings.
+firmware/ Patch scan state machine, drivers, module profiles, ADC calibration, logs and test builds.
+verification/ ERC/DRC results, scope captures, logic analyser logs, power/current records, calibration and
+acceptance tests.
+release/ Only approved manufacturing package, firmware version, test fixture spec and change log.
+Release package must include
+· Editable EasyEDA project and exact library component/device mappings.
+· PDF schematic exports, board layout, Gerbers, drill files, pick-and-place, fabrication / assembly drawings and
+stack-up.
+· BOM with exact manufacturer part numbers, packages, alternates and lifecycle status.
+· Canonical netlist plus connector pin map and pin-to-pad verification report.
+· ERC / DRC reports, design review sign-off, firmware build and version, test procedure and measured validation
+evidence.
+· Four auxiliary header pinout / voltage labels, supported module list, max current per port and safety warnings.
+WORKSPACE NOTE
+Herdr reports a BeeBox V2 workspace (ID WA) in the project folder. EasyEDA Pro is open on the new project, but
+the API Gateway bridge was still retrying in the provided screenshot. The bridge is a setup gate, not a completed
+integration.
+BEEBOX V2 | ENGINEERING BASELINE
+BBX-ENG-PR-003 | Rev 0.2 | 01 Nov 2026 Page 20
+18. Open decisions, assumptions and
+references
+Close these inputs before the schematic and PCB are treated as a frozen design.
+Open engineering decisions
+Decision What is needed to close it
+Four-header interpretation This report assumes four AUX connectors on every patch. Confirm the physical count is per patch and keep
+J_AUX1..J_AUX4 on each patch.
+Aux module set Exact methane, CO and other sensor module MPNs, datasheets and preferred vendors.
+Aux connector geometry Pin count, pitch, locking/keying, through-hole vs SMT, cable/board mating and user insertion cycles.
+Aux interface pins Voltage, GND, signal count, analog input, I²C/UART mapping, module detect / ID method and whether
+adapters are needed.
+Aux power 3.3 V / 5 V / other supply, current per port, max simultaneous current, boost/regulator and thermal limit.
+Aux concurrency One port at a time for first build; decide whether multi-port concurrency is a future requirement.
+Aux identification Resistor code, EEPROM, manual firmware profile or another discovery mechanism.
+Control expansion Whether Q3-Q7 suffice or a second shift register / mux decoder is required.
+Primary mic Current-production I²S MPN, sample rate, bit depth, BCLK and acoustic port.
+Battery / regulator Cell and protection MPN, charge path, cutoff, 3.3 V regulator and optional 5 V aux rail.
+Mechanical details Patch dimensions, FPC segment length, overall chain length, enclosure, gas aperture, acoustic aperture and
+environmental protection.
+Pogo implementation Exact contact MPN, geometry, compression, retention and service-cycle target.
+Display Exact module MPN, address, voltage and pull-up presence.
+Engineering references carried forward from the feasibility baseline
+[R1] BeeBox repository and V1/V2 source documents: https://github.com/NijoP/BeeBox
+[R2] Hirose FH34 series product information: https://www.hirose.com/en/product/p/CL0580-1253-0-50
+[R3] Texas Instruments SN74HC595: https://www.ti.com/product/SN74HC595
+[R4] Texas Instruments CD74HC4066: https://www.ti.com/product/CD74HC4066
+[R5] Texas Instruments TPS22918: https://www.ti.com/product/TPS22918
+[R6] Espressif ESP32-S3 ADC programming guide:
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/adc/index.html
+[R7] Espressif ESP32-S3 I²S programming guide:
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/i2s.html
+[R8] Sensirion SHT45: https://sensirion.com/products/catalog/SHT45
+[R9] TDK InvenSense ICS-43434 lifecycle/product page: https://www.invensense.tdk.com/en-us/products/microphone/ics-43434
+[R10] PUI Audio DMM-4026-B-I2S-R: https://puiaudio.com/product/microphones/dmm-4026-b-i2s-r
+[R11] PUI Audio DMM-4026-B-I2S evaluation document: https://api.puiaudio.com/filename/DMM-4026-B-I2S-EB-R.pdf
+[R12] Mill-Max 0906-series catalog: https://www.mill-max.com/sites/default/files/external/catalog/2021-02/023-028.pdf
+FINAL ENGINEERING STATUS
+Conditional GO for schematic and two-patch proof work after the auxiliary-module interface is closed. NOT released
+for manufacture. No hardware test, full-chain signal-integrity proof, aux power qualification, API bridge handshake
+or environmental field trial is claimed by this document.
+END OF DOCUMENT
+

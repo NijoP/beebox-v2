@@ -1,0 +1,16 @@
+[package]
+name = "beebox_v2_engineering"
+version = "0.6.0"
+edition = "2021"
+description = "BeeBox V2 typed engineering documentation (pre-implementation baseline). Documentation only - no firmware, schematic or PCB content."
+publish = false
+license = "LicenseRef-Proprietary"
+
+[lib]
+path = "src/lib.rs"
+doctest = true
+
+[dependencies]
+
+[package.metadata.docs]
+source_document = "BBX-ENG-PR-003 Rev 0.2 (01 Nov 2026)"

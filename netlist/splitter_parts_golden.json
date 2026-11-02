@@ -1,0 +1,310 @@
+[
+ {
+  "ref": "J1",
+  "dev": {
+   "name": "FH34SRJ-12S-0.5SH(50)"
+  },
+  "pins": [
+   {
+    "num": "1",
+    "name": "1",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "2",
+    "name": "2",
+    "net": "+5V_CHAIN",
+    "nc": false
+   },
+   {
+    "num": "3",
+    "name": "3",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "4",
+    "name": "4",
+    "net": "SENSOR_CLK",
+    "nc": false
+   },
+   {
+    "num": "5",
+    "name": "5",
+    "net": "SENSOR_SYNC",
+    "nc": false
+   },
+   {
+    "num": "6",
+    "name": "6",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "7",
+    "name": "7",
+    "net": "SENSOR_DATA_ID",
+    "nc": false
+   },
+   {
+    "num": "8",
+    "name": "8",
+    "net": "PATCH_DATA",
+    "nc": false
+   },
+   {
+    "num": "9",
+    "name": "9",
+    "net": "PATCH_CLK",
+    "nc": false
+   },
+   {
+    "num": "10",
+    "name": "10",
+    "net": "PATCH_LATCH",
+    "nc": false
+   },
+   {
+    "num": "11",
+    "name": "11",
+    "net": "PATCH_OE_N",
+    "nc": false
+   },
+   {
+    "num": "12",
+    "name": "12",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "13",
+    "name": "13",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "14",
+    "name": "14",
+    "net": "GND",
+    "nc": false
+   }
+  ]
+ },
+ {
+  "ref": "J2",
+  "dev": {
+   "name": "HDR-M_2.54_2x6"
+  },
+  "pins": [
+   {
+    "num": "1",
+    "name": "1",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "2",
+    "name": "2",
+    "net": "+5V_CHAIN",
+    "nc": false
+   },
+   {
+    "num": "3",
+    "name": "3",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "4",
+    "name": "4",
+    "net": "SENSOR_CLK",
+    "nc": false
+   },
+   {
+    "num": "5",
+    "name": "5",
+    "net": "SENSOR_SYNC",
+    "nc": false
+   },
+   {
+    "num": "6",
+    "name": "6",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "7",
+    "name": "7",
+    "net": "SENSOR_DATA_ID",
+    "nc": false
+   },
+   {
+    "num": "8",
+    "name": "8",
+    "net": "PATCH_DATA",
+    "nc": false
+   },
+   {
+    "num": "9",
+    "name": "9",
+    "net": "PATCH_CLK",
+    "nc": false
+   },
+   {
+    "num": "10",
+    "name": "10",
+    "net": "PATCH_LATCH",
+    "nc": false
+   },
+   {
+    "num": "11",
+    "name": "11",
+    "net": "PATCH_OE_N",
+    "nc": false
+   },
+   {
+    "num": "12",
+    "name": "12",
+    "net": "GND",
+    "nc": false
+   }
+  ]
+ },
+ {
+  "ref": "D1",
+  "dev": {
+   "name": "TPD4E05U06DQAR"
+  },
+  "pins": [
+   {
+    "num": "1",
+    "name": "D1+",
+    "net": "SENSOR_CLK",
+    "nc": false
+   },
+   {
+    "num": "2",
+    "name": "D1-",
+    "net": "SENSOR_SYNC",
+    "nc": false
+   },
+   {
+    "num": "3",
+    "name": "GND",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "4",
+    "name": "D2+",
+    "net": "SENSOR_DATA_ID",
+    "nc": false
+   },
+   {
+    "num": "5",
+    "name": "D2-",
+    "net": "PATCH_DATA",
+    "nc": false
+   },
+   {
+    "num": "6",
+    "name": "NC",
+    "net": null,
+    "nc": true
+   },
+   {
+    "num": "7",
+    "name": "NC",
+    "net": null,
+    "nc": true
+   },
+   {
+    "num": "8",
+    "name": "GND",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "9",
+    "name": "NC",
+    "net": null,
+    "nc": true
+   },
+   {
+    "num": "10",
+    "name": "NC",
+    "net": null,
+    "nc": true
+   }
+  ]
+ },
+ {
+  "ref": "D2",
+  "dev": {
+   "name": "TPD4E05U06DQAR"
+  },
+  "pins": [
+   {
+    "num": "1",
+    "name": "D1+",
+    "net": "PATCH_CLK",
+    "nc": false
+   },
+   {
+    "num": "2",
+    "name": "D1-",
+    "net": "PATCH_LATCH",
+    "nc": false
+   },
+   {
+    "num": "3",
+    "name": "GND",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "4",
+    "name": "D2+",
+    "net": "PATCH_OE_N",
+    "nc": false
+   },
+   {
+    "num": "5",
+    "name": "D2-",
+    "net": null,
+    "nc": true
+   },
+   {
+    "num": "6",
+    "name": "NC",
+    "net": null,
+    "nc": true
+   },
+   {
+    "num": "7",
+    "name": "NC",
+    "net": null,
+    "nc": true
+   },
+   {
+    "num": "8",
+    "name": "GND",
+    "net": "GND",
+    "nc": false
+   },
+   {
+    "num": "9",
+    "name": "NC",
+    "net": null,
+    "nc": true
+   },
+   {
+    "num": "10",
+    "name": "NC",
+    "net": null,
+    "nc": true
+   }
+  ]
+ }
+]

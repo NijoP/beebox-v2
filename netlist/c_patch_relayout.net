@@ -1,0 +1,10458 @@
+PROTEL NETLIST 2.0
+[
+DESIGNATOR
+DC1
+FOOTPRINT
+DC-IN-TH_DC-005-5A-2.0
+PARTTYPE
+DC-005-5A-2.0
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge1
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+DC-005-5A-2.0
+Designator
+DC1
+Device
+DC-005-5A-2.0
+LCSC Part Name
+
+Supplier Part
+DC-005-5A-2.0.1
+Manufacturer
+XKB Connection(中国星坤)
+Manufacturer Part
+DC-005-5A-2.0
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+DC-IN-TH_L14.4-W9.0-H11.0
+Connector Type
+
+Mounting Type
+
+Inside Contact Diameter
+
+Outside Contact Diameter
+
+Current Rating
+
+Voltage Rating (Max)
+
+Body Height
+
+Length
+
+Width
+
+Operating Temperature
+
+Name
+DC-005-5A-2.0
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+CN1
+FOOTPRINT
+CONN-TH_B2B-XH-A-LF-SN
+PARTTYPE
+B2B-XH-A(LF)(SN)
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge2
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B2B-XH-A (LF)(SN)
+Designator
+CN1
+Device
+B2B-XH-A(LF)(SN)
+LCSC Part Name
+
+Supplier Part
+B2B-XH-A (LF)(SN).1
+Manufacturer
+JST
+Manufacturer Part
+B2B-XH-A(LF)(SN)
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+XH2.5-2A
+Pins Structure
+
+Pitch
+
+Mounting Type
+
+Reference Series
+
+Number of Pins
+
+Number of Rows
+
+Number of PINs Per Row
+
+Row Spacing
+
+Current Rating
+
+Contact Material
+
+Contact Plating
+
+Operating Temperature
+
+Voltage Rating
+
+Plastic Material
+
+Flame Retardant Rating
+
+Supplementary Features
+
+Color
+
+Z-Height of the Board
+
+X-Length of Bottom Edge on Board (Spacing Line)
+
+Y-Width of Bottom Edge on Board
+
+Name
+B2B-XH-A(LF)(SN)
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U4
+FOOTPRINT
+F1812
+PARTTYPE
+BSMD1812-200-33V
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge3
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+BSMD1812-200-33V
+Designator
+U4
+Device
+BSMD1812-200-33V
+LCSC Part Name
+
+Supplier Part
+BSMD1812-200-33V.1
+Manufacturer
+BHFUSE(佰宏)
+Manufacturer Part
+BSMD1812-200-33V
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+F1812_L4.5-W3.2-H1.0
+Voltage - Max
+
+Current - Max
+
+Hold Current
+
+Trip Current
+
+Power Dissipation
+
+Resistance - Initial (Ri) (Min)
+
+Resistance - Post Trip (R1) (Max)
+
+Time to Trip(Max)
+
+Operating Temperature
+
+Length
+
+Width
+
+Height
+
+Pitch
+
+Name
+BSMD1812-200-33V
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+F1
+FOOTPRINT
+F1812
+PARTTYPE
+SMD1812P110TF/33
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge4
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SMD1812P110TF/33_C209862
+Designator
+F1
+Device
+SMD1812P110TF/33
+LCSC Part Name
+
+Supplier Part
+SMD1812P110TF/33_C209862.1
+Manufacturer
+
+Manufacturer Part
+SMD1812P110TF/33
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+F1812_L4.5-W3.2-H1.0
+Operating Voltage (Max)
+
+Current Rating (Max)
+
+Hold Current
+
+Trip Current
+
+Name
+SMD1812P110TF/33
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D6
+FOOTPRINT
+SMA_L4.4-W2.8-LS5.4-RD
+PARTTYPE
+SS34
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge5
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SS34_C142458
+Designator
+D6
+Device
+SS34
+LCSC Part Name
+
+Supplier Part
+SS34_C142458.1
+Manufacturer
+
+Manufacturer Part
+SS34
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SMA_L4.4-W2.8-LS5.4-RD
+Forward Voltage (Vf@If)
+
+Reverse Voltage (Vr)
+
+Average Rectified Current (Io)
+
+Name
+SS34
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D7
+FOOTPRINT
+SMB_L4.6-W3.6-LS5.3-RD
+PARTTYPE
+SMBJ26A
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge6
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SMBJ26A_C127562
+Designator
+D7
+Device
+SMBJ26A
+LCSC Part Name
+
+Supplier Part
+SMBJ26A_C127562.1
+Manufacturer
+
+Manufacturer Part
+SMBJ26A
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SMB_L4.6-W3.6-LS5.3-RD
+Reverse Stand-Off Voltage (Vrwm)
+
+Maximum Clamping Voltage
+
+Peak Pulse Current (Ipp)@10/1000us
+
+Breakdown Voltage
+
+Type
+
+Name
+SMBJ26A
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C7
+FOOTPRINT
+C1206
+PARTTYPE
+CL31A106KBHNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge7
+Add into BOM
+yes
+Convert to PCB
+yes
+Name
+
+Designator
+C7
+Symbol
+CL31A106KBHNNNE
+Device
+CL31A106KBHNNNE
+LCSC Part Name
+
+Supplier Part
+CL31A106KBHNNNE.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL31A106KBHNNNE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C1206_L3.2-W1.6-H1.3
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C8
+FOOTPRINT
+C1206
+PARTTYPE
+CL31A106KBHNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge8
+Add into BOM
+yes
+Convert to PCB
+yes
+Name
+
+Designator
+C8
+Symbol
+CL31A106KBHNNNE
+Device
+CL31A106KBHNNNE
+LCSC Part Name
+
+Supplier Part
+CL31A106KBHNNNE.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL31A106KBHNNNE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C1206_L3.2-W1.6-H1.3
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C11
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KB54PNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge9
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KB54PNC
+Designator
+C11
+Device
+CL05B104KB54PNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KB54PNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KB54PNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R20
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1004TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge10
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1004TCE
+Designator
+R20
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1004TCE
+Supplier Part
+0402WGF1004TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1004TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R7
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge11
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R7
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C15
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge12
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C15
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U2
+FOOTPRINT
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+PARTTYPE
+LMR51420XDDCR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge13
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+LMR51420XDDCR
+Designator
+U2
+Device
+LMR51420XDDCR
+LCSC Part Name
+
+Supplier Part
+LMR51420XDDCR.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+LMR51420XDDCR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95
+Function
+
+Voltage - Supply
+
+Output Voltage
+
+Output Current
+
+Frequency - Switching
+
+Operating Temperature
+
+Synchronous Rectifier
+
+Number of Outputs
+
+Topology
+
+Quiescent Current
+
+Switch tube (built-in/external)
+
+Output Type
+
+Features
+
+Name
+LMR51420XDDCR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+L2
+FOOTPRINT
+IND-SMD_L6.0-W6.0_SWPA6045S
+PARTTYPE
+SWPA6045S100MT
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge14
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SWPA6045S100MT
+Designator
+L2
+Device
+SWPA6045S100MT
+LCSC Part Name
+
+Supplier Part
+SWPA6045S100MT.1
+Manufacturer
+Sunlord(顺络)
+Manufacturer Part
+SWPA6045S100MT
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+IND-SMD_L6.0-W6.0-H4.5
+Value
+
+Tolerance
+
+Rated Current
+
+Current - Saturation(Isat)
+
+DC Resistance(DCR)
+
+Type
+
+Ratings
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C18
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge15
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C18
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R3
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge16
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R3
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R4
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1372TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge17
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1372TCE
+Designator
+R4
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1372TCE
+Supplier Part
+0402WGF1372TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1372TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C19
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A226MAQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge18
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A226MAQNNNE
+Designator
+C19
+Device
+CL21A226MAQNNNE
+LCSC Part Name
+
+Supplier Part
+CL21A226MAQNNNE.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL21A226MAQNNNE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C20
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A226MAQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge19
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A226MAQNNNE
+Designator
+C20
+Device
+CL21A226MAQNNNE
+LCSC Part Name
+
+Supplier Part
+CL21A226MAQNNNE.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL21A226MAQNNNE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U3
+FOOTPRINT
+VSON-HR-10_L3.0-W2.0-P0.50-TL
+PARTTYPE
+TPS63802DLAR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge20
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPS63802DLAR_C704850
+Designator
+U3
+Device
+TPS63802DLAR
+LCSC Part Name
+
+Supplier Part
+TPS63802DLAR_C704850.1
+Manufacturer
+
+Manufacturer Part
+TPS63802DLAR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+Name
+TPS63802DLAR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+L1
+FOOTPRINT
+IND-SMD_L4.0-W4.0
+PARTTYPE
+SWPA4030S1R5NT
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge21
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SWPA4030S1R5NT
+Designator
+L1
+Device
+SWPA4030S1R5NT
+LCSC Part Name
+
+Supplier Part
+SWPA4030S1R5NT.1
+Manufacturer
+Sunlord(顺络)
+Manufacturer Part
+SWPA4030S1R5NT
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+IND-SMD_L4.0-W4.0-H1.9
+Value
+
+Tolerance
+
+Current Rating
+
+Current - Saturation(Isat)
+
+DC Resistance(DCR)
+
+Type
+
+Ratings
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R15
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF5623TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge22
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF5623TCE
+Designator
+R15
+Device
+0402WGF5623TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF5623TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF5623TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R16
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge23
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R16
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C9
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A106KOQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge24
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A106KOQNNNE
+Designator
+C9
+Supplier
+LCSC
+Manufacturer Part
+CL21A106KOQNNNE
+Manufacturer
+SAMSUNG(三星)
+Value
+
+Supplier Part
+CL21A106KOQNNNE.1
+JLCPCB Part Class
+
+Device
+CL21A106KOQNNNE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C10
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A106KOQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge25
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A106KOQNNNE
+Designator
+C10
+Supplier
+LCSC
+Manufacturer Part
+CL21A106KOQNNNE
+Manufacturer
+SAMSUNG(三星)
+Value
+
+Supplier Part
+CL21A106KOQNNNE.1
+JLCPCB Part Class
+
+Device
+CL21A106KOQNNNE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R11
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge26
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R11
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R43
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge27
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R43
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+SW3
+FOOTPRINT
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5
+PARTTYPE
+TS-1187A-B-A-B
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge28
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TS-1187A-B-A-B
+Designator
+SW3
+Device
+TS-1187A-B-A-B
+LCSC Part Name
+
+Supplier Part
+TS-1187A-B-A-B.1
+Manufacturer
+XKB Connection(中国星坤)
+Manufacturer Part
+TS-1187A-B-A-B
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5
+Circuit
+
+Actuator Style
+
+Operating Force
+
+Mounting Type
+
+Length
+
+Width
+
+Switch Height
+
+with Bracket
+
+Contact Current
+
+Voltage Rating
+
+Actuator/Cap Color
+
+With Lamp
+
+Life
+
+Operating Temperature
+
+Name
+TS-1187A-B-A-B
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+Q1
+FOOTPRINT
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
+PARTTYPE
+AO3400A
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge29
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+AO3400A_C700953
+Designator
+Q1
+Device
+AO3400A
+LCSC Part Name
+
+Supplier Part
+AO3400A_C700953.1
+Manufacturer
+HUASHUO(华朔)
+Manufacturer Part
+AO3400A
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95
+Number
+
+Drain to Source Voltage
+
+Current - Continuous Drain(Id)
+
+RDS(on)
+
+Pd - Power Dissipation
+
+Gate Threshold Voltage (Vgs(th))
+
+Gate Charge(Qg)
+
+Input Capacitance(Ciss)
+
+Reverse Transfer Capacitance (Crss@Vds)
+
+Operating Temperature
+
+Configuration
+
+Type
+
+Output Capacitance(Coss)
+
+Vgs
+
+Name
+AO3400A
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D4
+FOOTPRINT
+SOD-323_L1.8-W1.3-LS2.5-RD
+PARTTYPE
+BAT54WS
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge30
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+BAT54WS_C388592
+Designator
+D4
+Device
+BAT54WS
+LCSC Part Name
+
+Supplier Part
+BAT54WS_C388592.1
+Manufacturer
+
+Manufacturer Part
+BAT54WS
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOD-323_L1.8-W1.3-LS2.5-RD
+Forward Voltage (Vf@If)
+
+Reverse Voltage (Vr)
+
+Average Rectified Current (Io)
+
+Name
+BAT54WS
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D5
+FOOTPRINT
+SOD-323_L1.8-W1.3-LS2.5-RD
+PARTTYPE
+BAT54WS
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge31
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+BAT54WS_C388592
+Designator
+D5
+Device
+BAT54WS
+LCSC Part Name
+
+Supplier Part
+BAT54WS_C388592.1
+Manufacturer
+
+Manufacturer Part
+BAT54WS
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOD-323_L1.8-W1.3-LS2.5-RD
+Forward Voltage (Vf@If)
+
+Reverse Voltage (Vr)
+
+Average Rectified Current (Io)
+
+Name
+BAT54WS
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R22
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge32
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R22
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R23
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge33
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R23
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R24
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge34
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R24
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+USB1
+FOOTPRINT
+TYPE-C-SMD_SBC-160S1A-20-S412
+PARTTYPE
+USB4105-GF-A
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge35
+Add into BOM
+yes
+Convert to PCB
+yes
+Name
+USB4105-GF-A
+Designator
+USB1
+Symbol
+USB4105-GF-A
+Device
+USB4105-GF-A
+LCSC Part Name
+
+Supplier Part
+USB4105-GF-A.1
+Manufacturer
+GCT
+Manufacturer Part
+USB4105-GF-A
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+TYPE-C-SMD_SBC-160S1A-20-S412
+Connector Type
+
+Protocol Standard
+
+Gender
+
+Mounting Type
+
+Number of Contacts
+
+Number of Ports
+
+Current Rating-Power
+
+Voltage Rating
+
+Detection color
+
+Operating Temperature
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D1
+FOOTPRINT
+SOT-553-5_L1.6-W1.2-P0.50-LS1.6-TL-1
+PARTTYPE
+TPD2E2U06DRLR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge36
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPD2E2U06DRLR
+Designator
+D1
+Supplier
+LCSC
+Supplier Part
+TPD2E2U06DRLR.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TPD2E2U06DRLR
+JLCPCB Part Class
+
+Device
+TPD2E2U06DRLR
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+SOT-553-5_L1.6-W1.2-P0.50-LS1.6-TL-1
+Reverse Stand-Off Voltage (Vrwm)
+
+Clamping Voltage
+
+Peak Pulse Current (Ipp)
+
+Peak Pulse Power Dissipation (Ppp)
+
+Voltage - Breakdown
+
+Reverse Leakage Current (Ir)
+
+Number of Channels
+
+Operating Temperature
+
+level of protection
+
+Type
+
+Junction Capacitance
+
+Name
+TPD2E2U06DRLR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D8
+FOOTPRINT
+SMA_L4.2-W2.6-LS5.0-RD_1
+PARTTYPE
+SS14_C2480
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge37
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SS14
+Designator
+D8
+Device
+SS14_C2480
+LCSC Part Name
+
+Supplier Part
+SS14.1
+Manufacturer
+MDD(辰达半导体)
+Manufacturer Part
+SS14
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SMA_L4.2-W2.6-LS5.0-RD_1
+Diode Configuration
+
+Voltage - Forward(Vf@If)
+
+Voltage - DC Reverse(Vr)
+
+Current - Rectified
+
+Reverse Leakage Current (Ir)
+
+Operating Junction Temperature Range
+
+Non-Repetitive Peak Forward Surge Current
+
+Power Dissipation
+
+Name
+SS14
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R13
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF5101TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge38
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF5101TCE
+Designator
+R13
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF5101TCE
+Supplier Part
+0402WGF5101TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF5101TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R14
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF5101TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge39
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF5101TCE
+Designator
+R14
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF5101TCE
+Supplier Part
+0402WGF5101TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF5101TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C6
+FOOTPRINT
+C0402
+PARTTYPE
+CL05A105KA5NQNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge40
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05A105KA5NQNC
+Designator
+C6
+Device
+CL05A105KA5NQNC
+LCSC Part Name
+
+Supplier Part
+CL05A105KA5NQNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05A105KA5NQNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R5
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF4702TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge41
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF4702TCE
+Designator
+R5
+Device
+0402WGF4702TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF4702TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF4702TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R6
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge42
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R6
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U1
+FOOTPRINT
+WIRELM-SMD_ESP32-S3-WROOM-1
+PARTTYPE
+ESP32-S3-WROOM-1-N16R2
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge43
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+ESP32-S3-WROOM-1(N16R2)
+Designator
+U1
+Device
+ESP32-S3-WROOM-1-N16R2
+LCSC Part Name
+
+Supplier Part
+ESP32-S3-WROOM-1(N16R2).1
+Manufacturer
+ESPRESSIF(乐鑫)
+Manufacturer Part
+ESP32-S3-WROOM-1-N16R2
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+WIRELM-SMD_ESP32-S3-WROOM-1
+Utilized IC / Part
+
+Wireless Standard
+
+Interface Type
+
+Value
+
+Antenna Type
+
+Output Power
+
+Voltage - Supply
+
+Receive  Current
+
+Send  Current
+
+Sensitivity
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+SW1
+FOOTPRINT
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5
+PARTTYPE
+TS-1187A-B-A-B
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge44
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TS-1187A-B-A-B
+Designator
+SW1
+Device
+TS-1187A-B-A-B
+LCSC Part Name
+
+Supplier Part
+TS-1187A-B-A-B.1
+Manufacturer
+XKB Connection(中国星坤)
+Manufacturer Part
+TS-1187A-B-A-B
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5
+Circuit
+
+Actuator Style
+
+Operating Force
+
+Mounting Type
+
+Length
+
+Width
+
+Switch Height
+
+with Bracket
+
+Contact Current
+
+Voltage Rating
+
+Actuator/Cap Color
+
+With Lamp
+
+Life
+
+Operating Temperature
+
+Name
+TS-1187A-B-A-B
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+SW2
+FOOTPRINT
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5
+PARTTYPE
+TS-1187A-B-A-B
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge45
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TS-1187A-B-A-B
+Designator
+SW2
+Device
+TS-1187A-B-A-B
+LCSC Part Name
+
+Supplier Part
+TS-1187A-B-A-B.1
+Manufacturer
+XKB Connection(中国星坤)
+Manufacturer Part
+TS-1187A-B-A-B
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5
+Circuit
+
+Actuator Style
+
+Operating Force
+
+Mounting Type
+
+Length
+
+Width
+
+Switch Height
+
+with Bracket
+
+Contact Current
+
+Voltage Rating
+
+Actuator/Cap Color
+
+With Lamp
+
+Life
+
+Operating Temperature
+
+Name
+TS-1187A-B-A-B
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C1
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A226MAQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge46
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A226MAQNNNE
+Designator
+C1
+Device
+CL21A226MAQNNNE
+LCSC Part Name
+
+Supplier Part
+CL21A226MAQNNNE.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL21A226MAQNNNE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C2
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge47
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C2
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C3
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge48
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C3
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R1
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1002TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge49
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1002TCE
+Designator
+R1
+Device
+0402WGF1002TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF1002TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1002TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C4
+FOOTPRINT
+C0402
+PARTTYPE
+CL05A105KA5NQNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge50
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05A105KA5NQNC
+Designator
+C4
+Device
+CL05A105KA5NQNC
+LCSC Part Name
+
+Supplier Part
+CL05A105KA5NQNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05A105KA5NQNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R2
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1002TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge51
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1002TCE
+Designator
+R2
+Device
+0402WGF1002TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF1002TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1002TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C5
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B103KB5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge52
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B103KB5NNNC
+Designator
+C5
+Device
+CL05B103KB5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B103KB5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B103KB5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U5
+FOOTPRINT
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+PARTTYPE
+TPS2553DBVR-1
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge53
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPS2553DBVR-1
+Designator
+U5
+Device
+TPS2553DBVR-1
+LCSC Part Name
+
+Supplier Part
+TPS2553DBVR-1.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TPS2553DBVR-1
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95
+Type
+
+Number of Channels
+
+Control Input Logic
+
+Voltage - Supply
+
+Maximum Continuous Current
+
+RDS(on)
+
+Features
+
+Operating Temperature	-
+
+Name
+TPS2553DBVR-1
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R19
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF7682TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge54
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF7682TCE
+Designator
+R19
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF7682TCE
+Supplier Part
+0402WGF7682TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF7682TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R12
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge55
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R12
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R42
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge56
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R42
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C12
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A106KOQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge57
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A106KOQNNNE
+Designator
+C12
+Supplier
+LCSC
+Manufacturer Part
+CL21A106KOQNNNE
+Manufacturer
+SAMSUNG(三星)
+Value
+
+Supplier Part
+CL21A106KOQNNNE.1
+JLCPCB Part Class
+
+Device
+CL21A106KOQNNNE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C13
+FOOTPRINT
+C0402
+PARTTYPE
+CL05A105KA5NQNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge58
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05A105KA5NQNC
+Designator
+C13
+Device
+CL05A105KA5NQNC
+LCSC Part Name
+
+Supplier Part
+CL05A105KA5NQNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05A105KA5NQNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C14
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A106KOQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge59
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A106KOQNNNE
+Designator
+C14
+Supplier
+LCSC
+Manufacturer Part
+CL21A106KOQNNNE
+Manufacturer
+SAMSUNG(三星)
+Value
+
+Supplier Part
+CL21A106KOQNNNE.1
+JLCPCB Part Class
+
+Device
+CL21A106KOQNNNE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R30
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF330JTCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge60
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF330JTCE
+Designator
+R30
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF330JTCE
+Supplier Part
+0402WGF330JTCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF330JTCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R31
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF330JTCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge61
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF330JTCE
+Designator
+R31
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF330JTCE
+Supplier Part
+0402WGF330JTCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF330JTCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R32
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF330JTCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge62
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF330JTCE
+Designator
+R32
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF330JTCE
+Supplier Part
+0402WGF330JTCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF330JTCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R33
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF330JTCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge63
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF330JTCE
+Designator
+R33
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF330JTCE
+Supplier Part
+0402WGF330JTCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF330JTCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R34
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF330JTCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge64
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF330JTCE
+Designator
+R34
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF330JTCE
+Supplier Part
+0402WGF330JTCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF330JTCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R35
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1001TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge65
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1001TCE
+Designator
+R35
+Device
+0402WGF1001TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF1001TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1001TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R36
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge66
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R36
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R38
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF2201TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge67
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF2201TCE
+Designator
+R38
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF2201TCE
+Supplier Part
+0402WGF2201TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF2201TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R39
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF2201TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge68
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF2201TCE
+Designator
+R39
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF2201TCE
+Supplier Part
+0402WGF2201TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF2201TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+FPC1
+FOOTPRINT
+FFC-SMD_12P-P0.50_FH34SRJ-12S-0.5SH
+PARTTYPE
+FH34SRJ-12S-0.5SH(50)
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge69
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FH34SRJ-12S-0.5SH(50)
+Designator
+FPC1
+Device
+FH34SRJ-12S-0.5SH(50)
+LCSC Part Name
+
+Supplier Part
+FH34SRJ-12S-0.5SH(50).1
+Manufacturer
+HRS(广濑)
+Manufacturer Part
+FH34SRJ-12S-0.5SH(50)
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+FFC-SMD_12P-P0.50_FH34SRJ-12S-0.5SH
+Locking Feature
+
+Contact Type
+
+Number of Contacts
+
+Pitch
+
+Mounting Type
+
+FFC, FCB Thickness
+
+Height Above Board
+
+Contact Material
+
+Contact Plating
+
+Operating Temperature
+
+Rated Voltage (Max)
+
+Current Rating (Max)
+
+Storage Temperature
+
+FPC/FFC Lock
+
+Forward Foot / Back Foot
+
+Name
+FH34SRJ-12S-0.5SH(50)
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+H1
+FOOTPRINT
+HDR-TH_12P-P2.54-V-M-R2-C6-S2.54
+PARTTYPE
+HDR-M_2.54_2x6
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge70
+Add into BOM
+yes
+Convert to PCB
+yes
+Designator
+H1
+Symbol
+HDR-M-2.54_2x6
+Device
+HDR-M_2.54_2x6
+Supplier Footprint
+
+3D Model Title
+HDR2.54-M-LI-2X6P
+Description
+
+Name
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+HDR-M-2.54_2x6.1
+
+*
+]
+[
+DESIGNATOR
+D2
+FOOTPRINT
+USON-10_L2.5-W1.0-P0.50-BL
+PARTTYPE
+TPD4E05U06DQAR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge71
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPD4E05U06DQAR
+Designator
+D2
+Device
+TPD4E05U06DQAR
+LCSC Part Name
+
+Supplier Part
+TPD4E05U06DQAR.1
+Manufacturer
+
+Manufacturer Part
+TPD4E05U06DQAR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+USON-10_L2.5-W1.0-H0.6-P0.50
+Name
+TPD4E05U06DQAR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D3
+FOOTPRINT
+USON-10_L2.5-W1.0-P0.50-BL
+PARTTYPE
+TPD4E05U06DQAR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge72
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPD4E05U06DQAR
+Designator
+D3
+Device
+TPD4E05U06DQAR
+LCSC Part Name
+
+Supplier Part
+TPD4E05U06DQAR.1
+Manufacturer
+
+Manufacturer Part
+TPD4E05U06DQAR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+USON-10_L2.5-W1.0-H0.6-P0.50
+Name
+TPD4E05U06DQAR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U6
+FOOTPRINT
+DFN-4_L1.5-W1.5-P0.8-TL-EP
+PARTTYPE
+SHT45-AD1B-R2
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge73
+Add into BOM
+yes
+Convert to PCB
+yes
+Name
+SHT45-AD1B-R2
+Designator
+U6
+Symbol
+SHT45-AD1B-R2
+Device
+SHT45-AD1B-R2
+LCSC Part Name
+
+Supplier Part
+SHT45-AD1B-R2.1
+Manufacturer
+Sensirion(瑞士盛思锐)
+Manufacturer Part
+SHT45-AD1B-R2
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+DFN-4_L1.5-W1.5-P0.8
+Detection Temperature Range
+
+Tolerance
+
+Voltage - Supply
+
+Standby Current
+
+Interface
+
+Temperature Conversion Time
+
+Temperature Resolution
+
+Operating Temperature
+
+Features
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U7
+FOOTPRINT
+MIC-SMD_6P-L3.5-W2.7-P0.90-BL
+PARTTYPE
+ICS-43434_C5656610
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge74
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+ICS-43434_C5656610
+Designator
+U7
+Device
+ICS-43434_C5656610
+LCSC Part Name
+
+Supplier Part
+ICS-43434_C5656610.1
+Manufacturer
+TDK InvenSense(应美盛)
+Manufacturer Part
+ICS-43434
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+MIC-SMD_6P-L3.5-W2.7-P0.90-BL
+Direction
+
+Voltage - Supply
+
+Current Consumption
+
+S/N Ratio
+
+Sensitivity
+
+Impedance
+
+Output Type
+
+Length
+
+Width
+
+Height
+
+Operating Temperature
+
+Features
+
+Frequency Range
+
+Name
+ICS-43434
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C16
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge75
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C16
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C17
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge76
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C17
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U8
+FOOTPRINT
+HDR-TH_HDR-M_2.54_1X4P
+PARTTYPE
+HDR-M_2.54_1x4P_C9900236824
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge77
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+HDR-M_2.54_1X4P
+Designator
+U8
+Device
+HDR-M_2.54_1x4P_C9900236824
+LCSC Part Name
+
+Supplier Part
+HDR-M_2.54_1X4P.1
+Manufacturer
+
+Manufacturer Part
+HDR-M_2.54_1x4P
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+Name
+HDR-M_2.54_1x4P
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R40
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF2201TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge78
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF2201TCE
+Designator
+R40
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF2201TCE
+Supplier Part
+0402WGF2201TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF2201TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R41
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF2201TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge79
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF2201TCE
+Designator
+R41
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF2201TCE
+Supplier Part
+0402WGF2201TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF2201TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U9
+FOOTPRINT
+DFN-8_L3.2-W1.5-P0.9-BL
+PARTTYPE
+RV-3028-C7
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge80
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+RV-3028-C7
+Designator
+U9
+Device
+RV-3028-C7
+LCSC Part Name
+
+Supplier Part
+RV-3028-C7.1
+Manufacturer
+
+Manufacturer Part
+RV-3028-C7
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+DFN-8_L3.2-W1.5-P0.9-BL
+Name
+RV-3028-C7
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+B1
+FOOTPRINT
+BAT-TH_CR2032-BS-6-1
+PARTTYPE
+CR2032-BS-6-1
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge81
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CR2032-BS-6-1
+Designator
+B1
+Device
+CR2032-BS-6-1
+LCSC Part Name
+
+Supplier Part
+CR2032-BS-6-1.1
+Manufacturer
+QIJEY
+Manufacturer Part
+CR2032-BS-6-1
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+BAT-SMD_L28.5-W16.0-H5.5-LS31.3_CR2032-BS-6-1
+Type
+
+Contact material
+
+Applicable battery specifications
+
+Name
+CR2032-BS-6-1
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C21
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge82
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C21
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C22
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge83
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C22
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R8
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge84
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R8
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+LED1
+FOOTPRINT
+LED0603-RD
+PARTTYPE
+KT-0603G
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge85
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0603 Green 509-620mcd
+Designator
+LED1
+Device
+KT-0603G
+LCSC Part Name
+
+Supplier Part
+0603 Green 509-620mcd.1
+Manufacturer
+KENTO
+Manufacturer Part
+KT-0603G
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+LED0603-RD
+Lamp Holder Type
+
+Illumination Color
+
+Voltage - Forward(Vf)
+
+Power(Watts)
+
+Forward Current
+
+Wavelength - Dominant
+
+Peak Wavelength
+
+Diode Configuration
+
+Lens Color
+
+Color Temperature
+
+Luminous Intensity
+
+Viewing Angle
+
+Mounting Style
+
+Operating Temperature
+
+Name
+KT-0603G
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+LED3
+FOOTPRINT
+LED-SMD_L1.6-W0.8-R-RD
+PARTTYPE
+KT-0603R
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge86
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+KT-0603R
+Designator
+LED3
+Device
+KT-0603R
+LCSC Part Name
+
+Supplier Part
+KT-0603R.1
+Manufacturer
+KENTO
+Manufacturer Part
+KT-0603R
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+LED0603_L1.6-W0.8-H0.6
+Lamp Holder Type
+
+Illumination Color
+
+Voltage - Forward(Vf)
+
+Power(Watts)
+
+Forward Current
+
+Wavelength - Dominant
+
+Peak Wavelength
+
+Diode Configuration
+
+Lens Color
+
+Color Temperature
+
+Luminous Intensity
+
+Viewing Angle
+
+Mounting Style
+
+Operating Temperature
+
+Name
+KT-0603R
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+LED4
+FOOTPRINT
+LED0603-RD
+PARTTYPE
+KT-0603G
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge87
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0603 Green 509-620mcd
+Designator
+LED4
+Device
+KT-0603G
+LCSC Part Name
+
+Supplier Part
+0603 Green 509-620mcd.1
+Manufacturer
+KENTO
+Manufacturer Part
+KT-0603G
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+LED0603-RD
+Lamp Holder Type
+
+Illumination Color
+
+Voltage - Forward(Vf)
+
+Power(Watts)
+
+Forward Current
+
+Wavelength - Dominant
+
+Peak Wavelength
+
+Diode Configuration
+
+Lens Color
+
+Color Temperature
+
+Luminous Intensity
+
+Viewing Angle
+
+Mounting Style
+
+Operating Temperature
+
+Name
+KT-0603G
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+LED5
+FOOTPRINT
+LED0603-RD
+PARTTYPE
+KT-0603B
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge88
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+Blue light 0603
+Designator
+LED5
+Device
+KT-0603B
+LCSC Part Name
+
+Supplier Part
+Blue light 0603.1
+Manufacturer
+KENTO
+Manufacturer Part
+KT-0603B
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+LED0603-RD
+Lamp Holder Type
+
+Illumination Color
+
+Voltage - Forward(Vf)
+
+Power(Watts)
+
+Forward Current
+
+Wavelength - Dominant
+
+Peak Wavelength
+
+Diode Configuration
+
+Lens Color
+
+Color Temperature
+
+Luminous Intensity
+
+Viewing Angle
+
+Mounting Style
+
+Operating Temperature
+
+Name
+KT-0603B
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R25
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1001TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge89
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1001TCE
+Designator
+R25
+Device
+0402WGF1001TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF1001TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1001TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R27
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1001TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge90
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1001TCE
+Designator
+R27
+Device
+0402WGF1001TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF1001TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1001TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R28
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1001TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge91
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1001TCE
+Designator
+R28
+Device
+0402WGF1001TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF1001TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1001TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R29
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1001TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge92
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1001TCE
+Designator
+R29
+Device
+0402WGF1001TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF1001TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1001TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+FPC101
+FOOTPRINT
+FFC-SMD_12P-P0.50_FH34SRJ-12S-0.5SH
+PARTTYPE
+FH34SRJ-12S-0.5SH(50)
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge93
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FH34SRJ-12S-0.5SH(50)
+Designator
+FPC101
+Device
+FH34SRJ-12S-0.5SH(50)
+LCSC Part Name
+
+Supplier Part
+FH34SRJ-12S-0.5SH(50).1
+Manufacturer
+HRS(广濑)
+Manufacturer Part
+FH34SRJ-12S-0.5SH(50)
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+FFC-SMD_12P-P0.50_FH34SRJ-12S-0.5SH
+Locking Feature
+
+Contact Type
+
+Number of Contacts
+
+Pitch
+
+Mounting Type
+
+FFC, FCB Thickness
+
+Height Above Board
+
+Contact Material
+
+Contact Plating
+
+Operating Temperature
+
+Rated Voltage (Max)
+
+Current Rating (Max)
+
+Storage Temperature
+
+FPC/FFC Lock
+
+Forward Foot / Back Foot
+
+Name
+FH34SRJ-12S-0.5SH(50)
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+FPC102
+FOOTPRINT
+FFC-SMD_12P-P0.50_FH34SRJ-12S-0.5SH
+PARTTYPE
+FH34SRJ-12S-0.5SH(50)
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge94
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+FH34SRJ-12S-0.5SH(50)
+Designator
+FPC102
+Device
+FH34SRJ-12S-0.5SH(50)
+LCSC Part Name
+
+Supplier Part
+FH34SRJ-12S-0.5SH(50).1
+Manufacturer
+HRS(广濑)
+Manufacturer Part
+FH34SRJ-12S-0.5SH(50)
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+FFC-SMD_12P-P0.50_FH34SRJ-12S-0.5SH
+Locking Feature
+
+Contact Type
+
+Number of Contacts
+
+Pitch
+
+Mounting Type
+
+FFC, FCB Thickness
+
+Height Above Board
+
+Contact Material
+
+Contact Plating
+
+Operating Temperature
+
+Rated Voltage (Max)
+
+Current Rating (Max)
+
+Storage Temperature
+
+FPC/FFC Lock
+
+Forward Foot / Back Foot
+
+Name
+FH34SRJ-12S-0.5SH(50)
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U101
+FOOTPRINT
+VSON-8_L2.0-W1.5-P0.50-BL
+PARTTYPE
+TPS62840DLCR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge95
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPS62840DLCR
+Designator
+U101
+Device
+TPS62840DLCR
+LCSC Part Name
+
+Supplier Part
+TPS62840DLCR.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TPS62840DLCR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+VSON-8_L2.0-W1.5-H1.0-P0.50-BL
+Function
+
+Voltage - Supply
+
+Output Voltage
+
+Output Current
+
+Frequency - Switching
+
+Operating Temperature
+
+Synchronous Rectifier
+
+Number of Outputs
+
+Topology
+
+Quiescent Current
+
+Switch tube (built-in/external)
+
+Output Type
+
+Features
+
+Name
+TPS62840DLCR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+L101
+FOOTPRINT
+IND-SMD_L3.0-W3.0
+PARTTYPE
+SWPA3015S2R2NT
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge96
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SWPA3015S2R2NT
+Designator
+L101
+Device
+SWPA3015S2R2NT
+LCSC Part Name
+
+Supplier Part
+SWPA3015S2R2NT.1
+Manufacturer
+Sunlord(顺络)
+Manufacturer Part
+SWPA3015S2R2NT
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+IND-SMD_L3.0-W3.0-H1.5
+Value
+
+Tolerance
+
+Current Rating
+
+Current - Saturation(Isat)
+
+DC Resistance(DCR)
+
+Type
+
+Ratings
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R101
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF2673TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge97
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF2673TCE
+Designator
+R101
+Supplier
+LCSC
+Supplier Part
+0402WGF2673TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF2673TCE
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF2673TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Overload Voltage (Max)
+
+Temperature Coefficient
+
+Operating Temperature Range
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C101
+FOOTPRINT
+C0603
+PARTTYPE
+CL10A475KO8NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge98
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL10A475KO8NNNC
+Designator
+C101
+Device
+CL10A475KO8NNNC
+LCSC Part Name
+
+Supplier Part
+CL10A475KO8NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL10A475KO8NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C102
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A106KOQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge99
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A106KOQNNNE
+Designator
+C102
+Supplier
+LCSC
+Manufacturer Part
+CL21A106KOQNNNE
+Manufacturer
+SAMSUNG(三星)
+Value
+
+Supplier Part
+CL21A106KOQNNNE.1
+JLCPCB Part Class
+
+Device
+CL21A106KOQNNNE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C103
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A106KOQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge100
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A106KOQNNNE
+Designator
+C103
+Supplier
+LCSC
+Manufacturer Part
+CL21A106KOQNNNE
+Manufacturer
+SAMSUNG(三星)
+Value
+
+Supplier Part
+CL21A106KOQNNNE.1
+JLCPCB Part Class
+
+Device
+CL21A106KOQNNNE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C104
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge101
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C104
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U102
+FOOTPRINT
+TSSOP-16_L5.0-W4.4-P0.65-LS6.4-BL
+PARTTYPE
+SN74LV595APWR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge102
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SN74LV595APWR_C116847
+Designator
+U102
+Device
+SN74LV595APWR
+LCSC Part Name
+
+Supplier Part
+SN74LV595APWR_C116847.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+SN74LV595APWR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+TSSOP-16_L5.0-W4.4-H1.0-LS6.4-P0.65
+Function
+
+Voltage - Supply
+
+Clock Frequency
+
+Number of Elements
+
+Output Type
+
+Series
+
+Pd - Power Dissipation
+
+Propagation Delay
+
+Output Current
+
+Resolution
+
+Input Type
+
+Current - Output Low(IOL)
+
+Current - Output High(IOH)
+
+Operating Temperature
+
+Features
+
+Name
+SN74LV595APWR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R102
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF330JTCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge103
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF330JTCE
+Designator
+R102
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF330JTCE
+Supplier Part
+0402WGF330JTCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF330JTCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R103
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge104
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R103
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C105
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge105
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C105
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R104
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF4702TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge106
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF4702TCE
+Designator
+R104
+Device
+0402WGF4702TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF4702TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF4702TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R105
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF4702TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge107
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF4702TCE
+Designator
+R105
+Device
+0402WGF4702TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF4702TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF4702TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R106
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF4702TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge108
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF4702TCE
+Designator
+R106
+Device
+0402WGF4702TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF4702TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF4702TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R107
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF4702TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge109
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF4702TCE
+Designator
+R107
+Device
+0402WGF4702TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF4702TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF4702TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R108
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF4702TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge110
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF4702TCE
+Designator
+R108
+Device
+0402WGF4702TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF4702TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF4702TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R110
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF4702TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge111
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF4702TCE
+Designator
+R110
+Device
+0402WGF4702TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF4702TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF4702TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R113
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF4702TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge112
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF4702TCE
+Designator
+R113
+Device
+0402WGF4702TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF4702TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF4702TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R109
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF2202TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge113
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF2202TCE
+Designator
+R109
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF2202TCE
+Supplier Part
+0402WGF2202TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF2202TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R114
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF6802TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge114
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF6802TCE
+Designator
+R114
+Device
+0402WGF6802TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF6802TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF6802TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Overload Voltage (Max)
+
+Temperature Coefficient
+
+Operating Temperature Range
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R115
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF6802TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge115
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF6802TCE
+Designator
+R115
+Device
+0402WGF6802TCE
+LCSC Part Name
+
+Supplier Part
+0402WGF6802TCE.1
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF6802TCE
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Value
+
+Tolerance
+
+Power(Watts)
+
+Overload Voltage (Max)
+
+Temperature Coefficient
+
+Operating Temperature Range
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R119
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1004TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge116
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1004TCE
+Designator
+R119
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1004TCE
+Supplier Part
+0402WGF1004TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1004TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R120
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1004TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge117
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1004TCE
+Designator
+R120
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1004TCE
+Supplier Part
+0402WGF1004TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1004TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U103
+FOOTPRINT
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR
+PARTTYPE
+TPS22918DBVR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge118
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPS22918DBVR
+Designator
+U103
+Device
+TPS22918DBVR
+LCSC Part Name
+
+Supplier Part
+TPS22918DBVR.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TPS22918DBVR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95
+Type
+
+Number of Channels
+
+Control Input Logic
+
+Voltage - Supply
+
+Maximum Continuous Current
+
+RDS(on)
+
+Features
+
+Operating Temperature	-
+
+Name
+TPS22918DBVR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C106
+FOOTPRINT
+C0402
+PARTTYPE
+0402B102K500NT
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge119
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402B102K500NT
+Designator
+C106
+Device
+0402B102K500NT
+LCSC Part Name
+
+Supplier Part
+0402B102K500NT.1
+Manufacturer
+FH(风华)
+Manufacturer Part
+0402B102K500NT
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C107
+FOOTPRINT
+C0402
+PARTTYPE
+CL05A105KA5NQNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge120
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05A105KA5NQNC
+Designator
+C107
+Device
+CL05A105KA5NQNC
+LCSC Part Name
+
+Supplier Part
+CL05A105KA5NQNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05A105KA5NQNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C108
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge121
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C108
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U110
+FOOTPRINT
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+PARTTYPE
+SN74LVC1G08DBVR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge122
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SN74LVC1G08DBVR
+Designator
+U110
+Device
+SN74LVC1G08DBVR
+LCSC Part Name
+
+Supplier Part
+SN74LVC1G08DBVR.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+SN74LVC1G08DBVR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95
+Logic Type
+
+Number of Gates
+
+Voltage - Supply
+
+Quiescent Current
+
+Current - Output Low(IOL)
+
+Current - Output High(IOH)
+
+Input Logic Level - High
+
+Input Logic Level - Low
+
+Output Logic Level - High
+
+Output Logic Level - Low
+
+Series
+
+Propagation Delay
+
+Operating Temperature
+
+Inputs per Gates
+
+Features
+
+Name
+SN74LVC1G08DBVR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U104
+FOOTPRINT
+TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL
+PARTTYPE
+TMUX1511PWR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge123
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TMUX1511PWR
+Designator
+U104
+Device
+TMUX1511PWR
+LCSC Part Name
+
+Supplier Part
+TMUX1511PWR.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TMUX1511PWR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65
+Switch Circuit
+
+Number of Channels
+
+Ron
+
+Voltage - Supply
+
+Con
+
+Turn-on time
+
+Turn-off time
+
+Bandwidth
+
+Operating Temperature
+
+Features
+
+Charge Injection
+
+Name
+TMUX1511PWR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U106
+FOOTPRINT
+MIC-SMD_6P-L3.5-W2.7-P0.90-BL
+PARTTYPE
+ICS-43434_C5656610
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge124
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+ICS-43434_C5656610
+Designator
+U106
+Device
+ICS-43434_C5656610
+LCSC Part Name
+
+Supplier Part
+ICS-43434_C5656610.1
+Manufacturer
+TDK InvenSense(应美盛)
+Manufacturer Part
+ICS-43434
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+MIC-SMD_6P-L3.5-W2.7-P0.90-BL
+Direction
+
+Voltage - Supply
+
+Current Consumption
+
+S/N Ratio
+
+Sensitivity
+
+Impedance
+
+Output Type
+
+Length
+
+Width
+
+Height
+
+Operating Temperature
+
+Features
+
+Frequency Range
+
+Name
+ICS-43434
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C115
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge125
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C115
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C109
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge126
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C109
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C111
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge127
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C111
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R116
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge128
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R116
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R117
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge129
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R117
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R118
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge130
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R118
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U107
+FOOTPRINT
+SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL
+PARTTYPE
+TPS2553DBVR-1
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge131
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPS2553DBVR-1
+Designator
+U107
+Device
+TPS2553DBVR-1
+LCSC Part Name
+
+Supplier Part
+TPS2553DBVR-1.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TPS2553DBVR-1
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95
+Type
+
+Number of Channels
+
+Control Input Logic
+
+Voltage - Supply
+
+Maximum Continuous Current
+
+RDS(on)
+
+Features
+
+Operating Temperature	-
+
+Name
+TPS2553DBVR-1
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R111
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF9312TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge132
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF9312TCE
+Designator
+R111
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF9312TCE
+Supplier Part
+0402WGF9312TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF9312TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+R112
+FOOTPRINT
+R0402
+PARTTYPE
+0402WGF1003TCE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge133
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+0402WGF1003TCE
+Designator
+R112
+Supplier
+LCSC
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0402WGF1003TCE
+Supplier Part
+0402WGF1003TCE.1
+Value
+
+JLCPCB Part Class
+
+Device
+0402WGF1003TCE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+R0402_L1.0-W0.5-H0.4
+Type
+
+Tolerance
+
+Power(Watts)
+
+Voltage-Supply(Max)
+
+Temperature Coefficient
+
+Operating Temperature
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C112
+FOOTPRINT
+C0402
+PARTTYPE
+CL05A105KA5NQNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge134
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05A105KA5NQNC
+Designator
+C112
+Device
+CL05A105KA5NQNC
+LCSC Part Name
+
+Supplier Part
+CL05A105KA5NQNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05A105KA5NQNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C113
+FOOTPRINT
+C0805
+PARTTYPE
+CL21A106KOQNNNE
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge135
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL21A106KOQNNNE
+Designator
+C113
+Supplier
+LCSC
+Manufacturer Part
+CL21A106KOQNNNE
+Manufacturer
+SAMSUNG(三星)
+Value
+
+Supplier Part
+CL21A106KOQNNNE.1
+JLCPCB Part Class
+
+Device
+CL21A106KOQNNNE
+LCSC Part Name
+
+Supplier Footprint
+
+Datasheet
+
+3D Model Title
+C0805_L2.0-W1.3-H1.3
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U111
+FOOTPRINT
+SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
+PARTTYPE
+SN74LVC1G08DBVR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge136
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+SN74LVC1G08DBVR
+Designator
+U111
+Device
+SN74LVC1G08DBVR
+LCSC Part Name
+
+Supplier Part
+SN74LVC1G08DBVR.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+SN74LVC1G08DBVR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95
+Logic Type
+
+Number of Gates
+
+Voltage - Supply
+
+Quiescent Current
+
+Current - Output Low(IOL)
+
+Current - Output High(IOH)
+
+Input Logic Level - High
+
+Input Logic Level - Low
+
+Output Logic Level - High
+
+Output Logic Level - Low
+
+Series
+
+Propagation Delay
+
+Operating Temperature
+
+Inputs per Gates
+
+Features
+
+Name
+SN74LVC1G08DBVR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U108
+FOOTPRINT
+TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL
+PARTTYPE
+TMUX1511PWR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge137
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TMUX1511PWR
+Designator
+U108
+Device
+TMUX1511PWR
+LCSC Part Name
+
+Supplier Part
+TMUX1511PWR.1
+Manufacturer
+TI(德州仪器)
+Manufacturer Part
+TMUX1511PWR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65
+Switch Circuit
+
+Number of Channels
+
+Ron
+
+Voltage - Supply
+
+Con
+
+Turn-on time
+
+Turn-off time
+
+Bandwidth
+
+Operating Temperature
+
+Features
+
+Charge Injection
+
+Name
+TMUX1511PWR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U105
+FOOTPRINT
+DFN-4_L1.5-W1.5-P0.8-TL-EP
+PARTTYPE
+SHT45-AD1B-R2
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge138
+Add into BOM
+yes
+Convert to PCB
+yes
+Name
+SHT45-AD1B-R2
+Designator
+U105
+Symbol
+SHT45-AD1B-R2
+Device
+SHT45-AD1B-R2
+LCSC Part Name
+
+Supplier Part
+SHT45-AD1B-R2.1
+Manufacturer
+Sensirion(瑞士盛思锐)
+Manufacturer Part
+SHT45-AD1B-R2
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+DFN-4_L1.5-W1.5-P0.8
+Detection Temperature Range
+
+Tolerance
+
+Voltage - Supply
+
+Standby Current
+
+Interface
+
+Temperature Conversion Time
+
+Temperature Resolution
+
+Operating Temperature
+
+Features
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+U109
+FOOTPRINT
+CONN-TH_B4B-PH-K-S-LF-SN
+PARTTYPE
+B4B-PH-K-S(LF)(SN)
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge139
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+B4B-PH-K-S-(LF)(SN)
+Designator
+U109
+Device
+B4B-PH-K-S(LF)(SN)
+LCSC Part Name
+
+Supplier Part
+B4B-PH-K-S-(LF)(SN).1
+Manufacturer
+
+Manufacturer Part
+B4B-PH-K-S(LF)(SN)
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+CONN-TH_B4B-PH-K-S-LF-SN
+Name
+B4B-PH-K-S(LF)(SN)
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+D101
+FOOTPRINT
+USON-10_L2.5-W1.0-P0.50-BL
+PARTTYPE
+TPD4E05U06DQAR
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge140
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+TPD4E05U06DQAR
+Designator
+D101
+Device
+TPD4E05U06DQAR
+LCSC Part Name
+
+Supplier Part
+TPD4E05U06DQAR.1
+Manufacturer
+
+Manufacturer Part
+TPD4E05U06DQAR
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+USON-10_L2.5-W1.0-H0.6-P0.50
+Name
+TPD4E05U06DQAR
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C116
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge141
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C116
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C114
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge142
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C114
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+[
+DESIGNATOR
+C110
+FOOTPRINT
+C0402
+PARTTYPE
+CL05B104KO5NNNC
+DESCRIPTION
+
+Component Kind
+Standard
+Unique ID
+gge143
+Add into BOM
+yes
+Convert to PCB
+yes
+Symbol
+CL05B104KO5NNNC
+Designator
+C110
+Device
+CL05B104KO5NNNC
+LCSC Part Name
+
+Supplier Part
+CL05B104KO5NNNC.1
+Manufacturer
+SAMSUNG(三星)
+Manufacturer Part
+CL05B104KO5NNNC
+Supplier Footprint
+
+JLCPCB Part Class
+
+Datasheet
+
+Supplier
+LCSC
+3D Model Title
+C0402_L1.0-W0.5-H0.5
+Value
+
+Tolerance
+
+Voltage Rating
+
+Temperature Coefficient
+
+Name
+
+Description
+
+Reuse Block
+
+Group ID
+
+Channel ID
+
+
+*
+]
+(
+CHG_IN 
+DC1-1 DC-005-5A-2.0-1 Passive 
+U4-1 BSMD1812-200-33V-1 Passive 
+)
+(
+GND 
+DC1-2 DC-005-5A-2.0-2 Passive 
+DC1-3 DC-005-5A-2.0-3 Passive 
+CN1-2 B2B-XH-A(LF)(SN)-2 Passive 
+D7-2 SMBJ26A-A Passive 
+C7-2 CL31A106KBHNNNE-2 Input   
+C8-2 CL31A106KBHNNNE-2 Input   
+C11-2 CL05B104KB54PNC-2 Input   
+R7-2 0402WGF1003TCE-2 Input   
+C15-2 CL05B104KO5NNNC-2 Passive 
+U2-1 LMR51420XDDCR-GND Passive 
+R4-2 0402WGF1372TCE-2 Input   
+C19-2 CL21A226MAQNNNE-2 Passive 
+C20-2 CL21A226MAQNNNE-2 Passive 
+U3-3 TPS63802DLAR-AGND Passive 
+U3-8 TPS63802DLAR-GND Passive 
+R16-2 0402WGF1003TCE-2 Input   
+C9-2 CL21A106KOQNNNE-2 Input   
+C10-2 CL21A106KOQNNNE-2 Input   
+R43-2 0402WGF1003TCE-2 Input   
+Q1-2 AO3400A-S Passive 
+R22-2 0402WGF1003TCE-2 Input   
+R23-2 0402WGF1003TCE-2 Input   
+USB1-B1 USB4105-GF-A-GND Passive 
+USB1-B12 USB4105-GF-A-GND Passive 
+USB1-1 USB4105-GF-A-EH Passive 
+USB1-A1 USB4105-GF-A-GND Passive 
+USB1-A12 USB4105-GF-A-GND Passive 
+USB1-4 USB4105-GF-A-EH Passive 
+USB1-3 USB4105-GF-A-EH Passive 
+USB1-2 USB4105-GF-A-EH Passive 
+D1-4 TPD2E2U06DRLR-GND Input   
+R13-2 0402WGF5101TCE-2 Input   
+R14-2 0402WGF5101TCE-2 Input   
+C6-2 CL05A105KA5NQNC-2 Passive 
+R6-2 0402WGF1003TCE-2 Input   
+U1-41 ESP32-S3-WROOM-1-N16R2-GND Passive 
+U1-40 ESP32-S3-WROOM-1-N16R2-GND Passive 
+U1-1 ESP32-S3-WROOM-1-N16R2-GND Passive 
+SW1-2 TS-1187A-B-A-B-B Passive 
+SW1-4 TS-1187A-B-A-B-D Passive 
+SW2-2 TS-1187A-B-A-B-B Passive 
+SW2-4 TS-1187A-B-A-B-D Passive 
+C1-2 CL21A226MAQNNNE-2 Passive 
+C2-2 CL05B104KO5NNNC-2 Passive 
+C3-2 CL05B104KO5NNNC-2 Passive 
+C4-2 CL05A105KA5NQNC-2 Passive 
+C5-2 CL05B103KB5NNNC-2 Input   
+U5-2 TPS2553DBVR-1-GND Input   
+R19-2 0402WGF7682TCE-2 Input   
+R42-2 0402WGF1003TCE-2 Input   
+C12-2 CL21A106KOQNNNE-2 Input   
+C13-2 CL05A105KA5NQNC-2 Passive 
+C14-2 CL21A106KOQNNNE-2 Input   
+R36-2 0402WGF1003TCE-2 Input   
+FPC1-1 FH34SRJ-12S-0.5SH(50)-1 Passive 
+FPC1-3 FH34SRJ-12S-0.5SH(50)-3 Passive 
+FPC1-6 FH34SRJ-12S-0.5SH(50)-6 Passive 
+FPC1-12 FH34SRJ-12S-0.5SH(50)-12 Passive 
+FPC1-13 FH34SRJ-12S-0.5SH(50)-13 Passive 
+FPC1-14 FH34SRJ-12S-0.5SH(50)-14 Passive 
+H1-1 HDR-M_2.54_2x6-1 Input   
+H1-12 HDR-M_2.54_2x6-12 Input   
+H1-3 HDR-M_2.54_2x6-3 Input   
+H1-6 HDR-M_2.54_2x6-6 Input   
+D2-3 TPD4E05U06DQAR-GND Passive 
+D2-8 TPD4E05U06DQAR-GND Passive 
+D3-3 TPD4E05U06DQAR-GND Passive 
+D3-5 TPD4E05U06DQAR-D2- Passive 
+D3-8 TPD4E05U06DQAR-GND Passive 
+U6-4 SHT45-AD1B-R2-VSS Passive 
+U6-5 SHT45-AD1B-R2-5 Passive 
+U7-3 ICS-43434_C5656610-GND Passive 
+C16-2 CL05B104KO5NNNC-2 Passive 
+C17-2 CL05B104KO5NNNC-2 Passive 
+U8-1 HDR-M_2.54_1x4P_C9900236824-1 Passive 
+U9-5 RV-3028-C7-VSS Input   
+U9-8 RV-3028-C7-EVI Input   
+B1-2 CR2032-BS-6-1-2 Input   
+C21-2 CL05B104KO5NNNC-2 Passive 
+C22-2 CL05B104KO5NNNC-2 Passive 
+LED1-1 KT-0603G-K Passive 
+LED3-2 KT-0603R-K Passive 
+LED4-1 KT-0603G-K Passive 
+LED5-1 KT-0603B-K Passive 
+)
+(
+BAT_IN 
+CN1-1 B2B-XH-A(LF)(SN)-1 Passive 
+U4-2 BSMD1812-200-33V-2 Passive 
+F1-1 SMD1812P110TF/33-1 Passive 
+)
+(
+BAT_F 
+F1-2 SMD1812P110TF/33-2 Passive 
+D6-2 SS34-A Input   
+)
+(
+VIN_PROT 
+D6-1 SS34-K Input   
+D7-1 SMBJ26A-C Passive 
+C7-1 CL31A106KBHNNNE-1 Input   
+C8-1 CL31A106KBHNNNE-1 Input   
+C11-1 CL05B104KB54PNC-1 Input   
+R20-1 0402WGF1004TCE-1 Input   
+U2-3 LMR51420XDDCR-VIN Passive 
+U2-5 LMR51420XDDCR-EN Passive 
+)
+(
+VBAT_SENSE 
+R20-2 0402WGF1004TCE-2 Input   
+R7-1 0402WGF1003TCE-1 Input   
+C15-1 CL05B104KO5NNNC-1 Passive 
+U1-38 ESP32-S3-WROOM-1-N16R2-IO2 Passive 
+)
+(
+SW_5V 
+U2-2 LMR51420XDDCR-SW Passive 
+L2-1 SWPA6045S100MT-1 Passive 
+C18-2 CL05B104KO5NNNC-2 Passive 
+)
+(
+FB_5V 
+U2-4 LMR51420XDDCR-FB Passive 
+R3-2 0402WGF1003TCE-2 Input   
+R4-1 0402WGF1372TCE-1 Input   
+)
+(
+CB_5V 
+U2-6 LMR51420XDDCR-CB Passive 
+C18-1 CL05B104KO5NNNC-1 Passive 
+)
+(
++5V0 
+L2-2 SWPA6045S100MT-2 Passive 
+R3-1 0402WGF1003TCE-1 Input   
+C19-1 CL21A226MAQNNNE-1 Passive 
+C20-1 CL21A226MAQNNNE-1 Passive 
+U3-10 TPS63802DLAR-VIN Passive 
+C9-1 CL21A106KOQNNNE-1 Input   
+SW3-1 TS-1187A-B-A-B-A Passive 
+SW3-3 TS-1187A-B-A-B-C Passive 
+D8-1 SS14_C2480-K Passive 
+U5-1 TPS2553DBVR-1-IN Input   
+C12-1 CL21A106KOQNNNE-1 Input   
+C13-1 CL05A105KA5NQNC-1 Passive 
+)
+(
+PWR_EN 
+U3-1 TPS63802DLAR-EN Passive 
+D4-1 BAT54WS-K Passive 
+D5-1 BAT54WS-K Passive 
+R23-1 0402WGF1003TCE-1 Input   
+)
+(
+REG_PS_SYNC 
+U3-2 TPS63802DLAR-MODE Passive 
+R43-1 0402WGF1003TCE-1 Input   
+U1-9 ESP32-S3-WROOM-1-N16R2-IO16 Passive 
+)
+(
+FB_3V3 
+U3-4 TPS63802DLAR-FB Passive 
+R15-2 0402WGF5623TCE-2 Input   
+R16-1 0402WGF1003TCE-1 Input   
+)
+(
+REG_PG 
+U3-5 TPS63802DLAR-PG Passive 
+R11-2 0402WGF1003TCE-2 Input   
+U1-29 ESP32-S3-WROOM-1-N16R2-IO36 Passive 
+)
+(
++3V3 
+U3-6 TPS63802DLAR-VOUT Passive 
+R15-1 0402WGF5623TCE-1 Input   
+C10-1 CL21A106KOQNNNE-1 Input   
+R11-1 0402WGF1003TCE-1 Input   
+R24-1 0402WGF1003TCE-1 Input   
+U1-2 ESP32-S3-WROOM-1-N16R2-3V3 Passive 
+C1-1 CL21A226MAQNNNE-1 Passive 
+C2-1 CL05B104KO5NNNC-1 Passive 
+C3-1 CL05B104KO5NNNC-1 Passive 
+R1-1 0402WGF1002TCE-1 Input   
+R2-1 0402WGF1002TCE-1 Input   
+R12-1 0402WGF1003TCE-1 Input   
+U6-3 SHT45-AD1B-R2-VDD Passive 
+U7-2 ICS-43434_C5656610-LR Passive 
+U7-5 ICS-43434_C5656610-VDD Passive 
+C16-1 CL05B104KO5NNNC-1 Passive 
+C17-1 CL05B104KO5NNNC-1 Passive 
+U8-2 HDR-M_2.54_1x4P_C9900236824-2 Passive 
+R40-2 0402WGF2201TCE-2 Input   
+R41-2 0402WGF2201TCE-2 Input   
+U9-7 RV-3028-C7-VDD Input   
+C21-1 CL05B104KO5NNNC-1 Passive 
+R8-1 0402WGF1003TCE-1 Input   
+R25-1 0402WGF1001TCE-1 Input   
+)
+(
+L_3V3B 
+U3-7 TPS63802DLAR-L2 Passive 
+L1-2 SWPA4030S1R5NT-2 Passive 
+)
+(
+L_3V3A 
+U3-9 TPS63802DLAR-L1 Passive 
+L1-1 SWPA4030S1R5NT-1 Passive 
+)
+(
+BTN 
+SW3-2 TS-1187A-B-A-B-B Passive 
+SW3-4 TS-1187A-B-A-B-D Passive 
+Q1-1 AO3400A-G Passive 
+D4-2 BAT54WS-A Passive 
+R22-1 0402WGF1003TCE-1 Input   
+)
+(
+PWR_BTN 
+Q1-3 AO3400A-D Passive 
+R24-2 0402WGF1003TCE-2 Input   
+U1-25 ESP32-S3-WROOM-1-N16R2-IO48 Passive 
+)
+(
+PWR_HOLD 
+D5-2 BAT54WS-A Passive 
+U1-24 ESP32-S3-WROOM-1-N16R2-IO47 Passive 
+)
+(
+VBUS 
+USB1-B4 USB4105-GF-A-VBUS Passive 
+USB1-B9 USB4105-GF-A-VBUS Passive 
+USB1-A4 USB4105-GF-A-VBUS Passive 
+USB1-A9 USB4105-GF-A-VBUS Passive 
+D8-2 SS14_C2480-A Passive 
+C6-1 CL05A105KA5NQNC-1 Passive 
+R5-1 0402WGF4702TCE-1 Input   
+)
+(
+CC2 
+USB1-B5 USB4105-GF-A-CC2 Passive 
+R14-1 0402WGF5101TCE-1 Input   
+)
+(
+USB_DP 
+USB1-B6 USB4105-GF-A-DP2 Passive 
+USB1-A6 USB4105-GF-A-DP1 Passive 
+D1-3 TPD2E2U06DRLR-IO1 Input   
+U1-14 ESP32-S3-WROOM-1-N16R2-IO20 Passive 
+)
+(
+USB_DM 
+USB1-B7 USB4105-GF-A-DN2 Passive 
+USB1-A7 USB4105-GF-A-DN1 Passive 
+D1-5 TPD2E2U06DRLR-IO2 Input   
+U1-13 ESP32-S3-WROOM-1-N16R2-IO19 Passive 
+)
+(
+CC1 
+USB1-A5 USB4105-GF-A-CC1 Passive 
+R13-1 0402WGF5101TCE-1 Input   
+)
+(
+VBUS_DET 
+R5-2 0402WGF4702TCE-2 Input   
+R6-1 0402WGF1003TCE-1 Input   
+U1-23 ESP32-S3-WROOM-1-N16R2-IO21 Passive 
+)
+(
+SENSOR_DATA_ID 
+U1-39 ESP32-S3-WROOM-1-N16R2-IO1 Passive 
+R36-1 0402WGF1003TCE-1 Input   
+FPC1-7 FH34SRJ-12S-0.5SH(50)-7 Passive 
+H1-7 HDR-M_2.54_2x6-7 Input   
+D2-4 TPD4E05U06DQAR-D2+ Passive 
+U7-6 ICS-43434_C5656610-SD Passive 
+)
+(
+LED_B 
+U1-34 ESP32-S3-WROOM-1-N16R2-IO41 Passive 
+R29-1 0402WGF1001TCE-1 Input   
+)
+(
+LED_G 
+U1-33 ESP32-S3-WROOM-1-N16R2-IO40 Passive 
+R28-1 0402WGF1001TCE-1 Input   
+)
+(
+LED_R 
+U1-32 ESP32-S3-WROOM-1-N16R2-IO39 Passive 
+R27-1 0402WGF1001TCE-1 Input   
+)
+(
+MCU_BOOT 
+U1-27 ESP32-S3-WROOM-1-N16R2-IO0 Passive 
+SW2-1 TS-1187A-B-A-B-A Passive 
+SW2-3 TS-1187A-B-A-B-C Passive 
+R2-2 0402WGF1002TCE-2 Input   
+C5-1 CL05B103KB5NNNC-1 Input   
+)
+(
+PATCH_OE_N 
+U1-22 ESP32-S3-WROOM-1-N16R2-IO14 Passive 
+R35-1 0402WGF1001TCE-1 Input   
+)
+(
+PATCH_LATCH 
+U1-21 ESP32-S3-WROOM-1-N16R2-IO13 Passive 
+R34-1 0402WGF330JTCE-1 Input   
+)
+(
+PATCH_SHIFT_CLK 
+U1-20 ESP32-S3-WROOM-1-N16R2-IO12 Passive 
+R33-1 0402WGF330JTCE-1 Input   
+)
+(
+PATCH_SHIFT_DATA 
+U1-19 ESP32-S3-WROOM-1-N16R2-IO11 Passive 
+R32-1 0402WGF330JTCE-1 Input   
+)
+(
+SYS_SCL 
+U1-18 ESP32-S3-WROOM-1-N16R2-IO10 Passive 
+U6-2 SHT45-AD1B-R2-SCL Passive 
+U8-3 HDR-M_2.54_1x4P_C9900236824-3 Passive 
+R41-1 0402WGF2201TCE-1 Input   
+U9-3 RV-3028-C7-SCL Input   
+)
+(
+SYS_SDA 
+U1-17 ESP32-S3-WROOM-1-N16R2-IO9 Passive 
+U6-1 SHT45-AD1B-R2-SDA Passive 
+U8-4 HDR-M_2.54_1x4P_C9900236824-4 Passive 
+R40-1 0402WGF2201TCE-1 Input   
+U9-4 RV-3028-C7-SDA Input   
+)
+(
+CHAIN_FAULT_N 
+U1-12 ESP32-S3-WROOM-1-N16R2-IO8 Passive 
+U5-4 TPS2553DBVR-1-FAULT# Input   
+R12-2 0402WGF1003TCE-2 Input   
+)
+(
+RTC_INT_N 
+U1-10 ESP32-S3-WROOM-1-N16R2-IO17 Passive 
+U9-2 RV-3028-C7-INT# Input   
+R8-2 0402WGF1003TCE-2 Input   
+)
+(
+CHAIN_PWR_EN 
+U1-7 ESP32-S3-WROOM-1-N16R2-IO7 Passive 
+U5-3 TPS2553DBVR-1-EN Input   
+R42-1 0402WGF1003TCE-1 Input   
+)
+(
+SENSOR_PU_EN 
+U1-6 ESP32-S3-WROOM-1-N16R2-IO6 Passive 
+R38-2 0402WGF2201TCE-2 Input   
+R39-2 0402WGF2201TCE-2 Input   
+)
+(
+SENSOR_SYNC 
+U1-5 ESP32-S3-WROOM-1-N16R2-IO5 Passive 
+R31-1 0402WGF330JTCE-1 Input   
+R39-1 0402WGF2201TCE-1 Input   
+U7-1 ICS-43434_C5656610-WS Passive 
+)
+(
+SENSOR_CLK 
+U1-4 ESP32-S3-WROOM-1-N16R2-IO4 Passive 
+R30-1 0402WGF330JTCE-1 Input   
+R38-1 0402WGF2201TCE-1 Input   
+U7-4 ICS-43434_C5656610-SCK Passive 
+)
+(
+MCU_EN 
+U1-3 ESP32-S3-WROOM-1-N16R2-EN Passive 
+SW1-1 TS-1187A-B-A-B-A Passive 
+SW1-3 TS-1187A-B-A-B-C Passive 
+R1-2 0402WGF1002TCE-2 Input   
+C4-1 CL05A105KA5NQNC-1 Passive 
+)
+(
+TPS2553_ILIM 
+U5-5 TPS2553DBVR-1-ILIM Input   
+R19-1 0402WGF7682TCE-1 Input   
+)
+(
++5V_CHAIN 
+U5-6 TPS2553DBVR-1-OUT Input   
+C14-1 CL21A106KOQNNNE-1 Input   
+FPC1-2 FH34SRJ-12S-0.5SH(50)-2 Passive 
+H1-2 HDR-M_2.54_2x6-2 Input   
+)
+(
+SENSOR_CLK_C 
+R30-2 0402WGF330JTCE-2 Input   
+FPC1-4 FH34SRJ-12S-0.5SH(50)-4 Passive 
+H1-4 HDR-M_2.54_2x6-4 Input   
+D2-1 TPD4E05U06DQAR-D1+ Passive 
+)
+(
+SENSOR_SYNC_C 
+R31-2 0402WGF330JTCE-2 Input   
+FPC1-5 FH34SRJ-12S-0.5SH(50)-5 Passive 
+H1-5 HDR-M_2.54_2x6-5 Input   
+D2-2 TPD4E05U06DQAR-D1- Passive 
+)
+(
+PATCH_DATA_C 
+R32-2 0402WGF330JTCE-2 Input   
+FPC1-8 FH34SRJ-12S-0.5SH(50)-8 Passive 
+H1-8 HDR-M_2.54_2x6-8 Input   
+D2-5 TPD4E05U06DQAR-D2- Passive 
+)
+(
+PATCH_CLK_C 
+R33-2 0402WGF330JTCE-2 Input   
+FPC1-9 FH34SRJ-12S-0.5SH(50)-9 Passive 
+H1-9 HDR-M_2.54_2x6-9 Input   
+D3-1 TPD4E05U06DQAR-D1+ Passive 
+)
+(
+PATCH_LATCH_C 
+R34-2 0402WGF330JTCE-2 Input   
+FPC1-10 FH34SRJ-12S-0.5SH(50)-10 Passive 
+H1-10 HDR-M_2.54_2x6-10 Input   
+D3-2 TPD4E05U06DQAR-D1- Passive 
+)
+(
+PATCH_OE_N_C 
+R35-2 0402WGF1001TCE-2 Input   
+FPC1-11 FH34SRJ-12S-0.5SH(50)-11 Passive 
+H1-11 HDR-M_2.54_2x6-11 Input   
+D3-4 TPD4E05U06DQAR-D2+ Passive 
+)
+(
+VBAT_RTC 
+U9-6 RV-3028-C7-VBACKUP Input   
+B1-1 CR2032-BS-6-1-1 Input   
+C22-1 CL05B104KO5NNNC-1 Passive 
+)
+(
+PWR_LED_A 
+LED1-2 KT-0603G-A Passive 
+R25-2 0402WGF1001TCE-2 Input   
+)
+(
+LEDR_A 
+LED3-1 KT-0603R-A Passive 
+R27-2 0402WGF1001TCE-2 Input   
+)
+(
+LEDG_A 
+LED4-2 KT-0603G-A Passive 
+R28-2 0402WGF1001TCE-2 Input   
+)
+(
+LEDB_A 
+LED5-2 KT-0603B-A Passive 
+R29-2 0402WGF1001TCE-2 Input   
+)
+(
+P_GND 
+FPC101-1 FH34SRJ-12S-0.5SH(50)-1 Passive 
+FPC101-3 FH34SRJ-12S-0.5SH(50)-3 Passive 
+FPC101-6 FH34SRJ-12S-0.5SH(50)-6 Passive 
+FPC101-12 FH34SRJ-12S-0.5SH(50)-12 Passive 
+FPC101-13 FH34SRJ-12S-0.5SH(50)-13 Passive 
+FPC101-14 FH34SRJ-12S-0.5SH(50)-14 Passive 
+FPC102-1 FH34SRJ-12S-0.5SH(50)-1 Passive 
+FPC102-3 FH34SRJ-12S-0.5SH(50)-3 Passive 
+FPC102-6 FH34SRJ-12S-0.5SH(50)-6 Passive 
+FPC102-12 FH34SRJ-12S-0.5SH(50)-12 Passive 
+FPC102-13 FH34SRJ-12S-0.5SH(50)-13 Passive 
+FPC102-14 FH34SRJ-12S-0.5SH(50)-14 Passive 
+U101-1 TPS62840DLCR-GND Passive 
+U101-3 TPS62840DLCR-MODE Passive 
+U101-6 TPS62840DLCR-STOP Passive 
+R101-2 0402WGF2673TCE-2 Input   
+C101-2 CL10A475KO8NNNC-2 Passive 
+C102-2 CL21A106KOQNNNE-2 Input   
+C103-2 CL21A106KOQNNNE-2 Input   
+C104-2 CL05B104KO5NNNC-2 Passive 
+U102-8 SN74LV595APWR-GND Passive 
+C105-2 CL05B104KO5NNNC-2 Passive 
+R104-2 0402WGF4702TCE-2 Input   
+R105-2 0402WGF4702TCE-2 Input   
+R106-2 0402WGF4702TCE-2 Input   
+R107-2 0402WGF4702TCE-2 Input   
+R108-2 0402WGF4702TCE-2 Input   
+R110-2 0402WGF4702TCE-2 Input   
+R113-2 0402WGF4702TCE-2 Input   
+R119-2 0402WGF1004TCE-2 Input   
+R120-2 0402WGF1004TCE-2 Input   
+U103-2 TPS22918DBVR-GND Passive 
+C106-2 0402B102K500NT-2 Input   
+C107-2 CL05A105KA5NQNC-2 Passive 
+C108-2 CL05B104KO5NNNC-2 Passive 
+U110-3 SN74LVC1G08DBVR-GND Passive 
+U104-7 TMUX1511PWR-GND Input   
+U106-2 ICS-43434_C5656610-LR Passive 
+U106-3 ICS-43434_C5656610-GND Passive 
+C115-2 CL05B104KO5NNNC-2 Passive 
+C109-2 CL05B104KO5NNNC-2 Passive 
+C111-2 CL05B104KO5NNNC-2 Passive 
+R116-2 0402WGF1003TCE-2 Input   
+R117-2 0402WGF1003TCE-2 Input   
+R118-2 0402WGF1003TCE-2 Input   
+U107-2 TPS2553DBVR-1-GND Input   
+R111-2 0402WGF9312TCE-2 Input   
+C112-2 CL05A105KA5NQNC-2 Passive 
+C113-2 CL21A106KOQNNNE-2 Input   
+U111-3 SN74LVC1G08DBVR-GND Passive 
+U108-7 TMUX1511PWR-GND Input   
+U105-4 SHT45-AD1B-R2-VSS Passive 
+U105-5 SHT45-AD1B-R2-5 Passive 
+U109-2 B4B-PH-K-S(LF)(SN)-2 Passive 
+D101-3 TPD4E05U06DQAR-GND Passive 
+D101-8 TPD4E05U06DQAR-GND Passive 
+C116-2 CL05B104KO5NNNC-2 Passive 
+C114-2 CL05B104KO5NNNC-2 Passive 
+C110-2 CL05B104KO5NNNC-2 Passive 
+)
+(
+P_+5V_CHAIN 
+FPC101-2 FH34SRJ-12S-0.5SH(50)-2 Passive 
+FPC102-2 FH34SRJ-12S-0.5SH(50)-2 Passive 
+U101-2 TPS62840DLCR-VIN Passive 
+U101-4 TPS62840DLCR-EN Passive 
+C101-1 CL10A475KO8NNNC-1 Passive 
+C103-1 CL21A106KOQNNNE-1 Input   
+C104-1 CL05B104KO5NNNC-1 Passive 
+)
+(
+P_SENSOR_CLK 
+FPC101-4 FH34SRJ-12S-0.5SH(50)-4 Passive 
+FPC102-4 FH34SRJ-12S-0.5SH(50)-4 Passive 
+U104-3 TMUX1511PWR-D1 Input   
+U108-3 TMUX1511PWR-D1 Input   
+)
+(
+P_SENSOR_SYNC 
+FPC101-5 FH34SRJ-12S-0.5SH(50)-5 Passive 
+FPC102-5 FH34SRJ-12S-0.5SH(50)-5 Passive 
+U104-6 TMUX1511PWR-D2 Input   
+U108-6 TMUX1511PWR-D2 Input   
+)
+(
+P_SENSOR_DATA_ID 
+FPC101-7 FH34SRJ-12S-0.5SH(50)-7 Passive 
+FPC102-7 FH34SRJ-12S-0.5SH(50)-7 Passive 
+U104-8 TMUX1511PWR-D3 Input   
+U104-11 TMUX1511PWR-D4 Input   
+U108-8 TMUX1511PWR-D3 Input   
+U108-11 TMUX1511PWR-D4 Input   
+)
+(
+P_PATCH_DATA_IN 
+FPC101-8 FH34SRJ-12S-0.5SH(50)-8 Passive 
+U102-14 SN74LV595APWR-SER Passive 
+)
+(
+P_PATCH_CLK 
+FPC101-9 FH34SRJ-12S-0.5SH(50)-9 Passive 
+FPC102-9 FH34SRJ-12S-0.5SH(50)-9 Passive 
+U102-11 SN74LV595APWR-SRCLK Passive 
+)
+(
+P_PATCH_LATCH 
+FPC101-10 FH34SRJ-12S-0.5SH(50)-10 Passive 
+FPC102-10 FH34SRJ-12S-0.5SH(50)-10 Passive 
+U102-12 SN74LV595APWR-RCLK Passive 
+)
+(
+P_PATCH_OE_N 
+FPC101-11 FH34SRJ-12S-0.5SH(50)-11 Passive 
+FPC102-11 FH34SRJ-12S-0.5SH(50)-11 Passive 
+U102-13 SN74LV595APWR-OE_n Passive 
+R103-2 0402WGF1003TCE-2 Input   
+)
+(
+P_PATCH_DATA_OUT 
+FPC102-8 FH34SRJ-12S-0.5SH(50)-8 Passive 
+R102-2 0402WGF330JTCE-2 Input   
+)
+(
+P_VSET_R 
+U101-5 TPS62840DLCR-VSET Passive 
+R101-1 0402WGF2673TCE-1 Input   
+)
+(
+P_SW_LOC 
+U101-7 TPS62840DLCR-SW Passive 
+L101-1 SWPA3015S2R2NT-1 Passive 
+)
+(
+P_+3V3_LOCAL 
+U101-8 TPS62840DLCR-VOS Passive 
+L101-2 SWPA3015S2R2NT-2 Passive 
+C102-1 CL21A106KOQNNNE-1 Input   
+U102-10 SN74LV595APWR-SRCLR_n Passive 
+U102-16 SN74LV595APWR-VCC Passive 
+R103-1 0402WGF1003TCE-1 Input   
+C105-1 CL05B104KO5NNNC-1 Passive 
+R109-1 0402WGF2202TCE-1 Input   
+R114-1 0402WGF6802TCE-1 Input   
+R115-1 0402WGF6802TCE-1 Input   
+U103-1 TPS22918DBVR-VIN Passive 
+C107-1 CL05A105KA5NQNC-1 Passive 
+U110-5 SN74LVC1G08DBVR-VCC Passive 
+U104-14 TMUX1511PWR-VDD Input   
+C115-1 CL05B104KO5NNNC-1 Passive 
+C109-1 CL05B104KO5NNNC-1 Passive 
+U107-1 TPS2553DBVR-1-IN Input   
+R112-1 0402WGF1003TCE-1 Input   
+C112-1 CL05A105KA5NQNC-1 Passive 
+U111-5 SN74LVC1G08DBVR-VCC Passive 
+U108-14 TMUX1511PWR-VDD Input   
+C116-1 CL05B104KO5NNNC-1 Passive 
+C114-1 CL05B104KO5NNNC-1 Passive 
+)
+(
+P_PRI_SIG_EN 
+U102-1 SN74LV595APWR-QB Passive 
+R105-1 0402WGF4702TCE-1 Input   
+U110-1 SN74LVC1G08DBVR-A Passive 
+)
+(
+P_ID_EN 
+U102-2 SN74LV595APWR-QC Passive 
+R106-1 0402WGF4702TCE-1 Input   
+U104-13 TMUX1511PWR-SEL4 Input   
+)
+(
+P_MOD_PWR_EN 
+U102-3 SN74LV595APWR-QD Passive 
+R107-1 0402WGF4702TCE-1 Input   
+U107-3 TPS2553DBVR-1-EN Input   
+)
+(
+P_MOD_SIG_EN 
+U102-4 SN74LV595APWR-QE Passive 
+R108-1 0402WGF4702TCE-1 Input   
+U111-1 SN74LVC1G08DBVR-A Passive 
+)
+(
+P_PRES_T_EN 
+U102-5 SN74LV595APWR-QF Passive 
+R110-1 0402WGF4702TCE-1 Input   
+U108-10 TMUX1511PWR-SEL3 Input   
+)
+(
+P_PRES_M_EN 
+U102-6 SN74LV595APWR-QG Passive 
+R113-1 0402WGF4702TCE-1 Input   
+U108-13 TMUX1511PWR-SEL4 Input   
+)
+(
+P_QH_OUT 
+U102-9 SN74LV595APWR-QH&apos; Passive 
+R102-1 0402WGF330JTCE-1 Input   
+)
+(
+P_PRI_PWR_EN 
+U102-15 SN74LV595APWR-QA Passive 
+R104-1 0402WGF4702TCE-1 Input   
+U103-3 TPS22918DBVR-ON Passive 
+)
+(
+P_ID_NODE 
+R109-2 0402WGF2202TCE-2 Input   
+U104-12 TMUX1511PWR-S4 Input   
+)
+(
+P_PRES_T 
+R114-2 0402WGF6802TCE-2 Input   
+R119-1 0402WGF1004TCE-1 Input   
+U108-9 TMUX1511PWR-S3 Input   
+)
+(
+P_PRES_M 
+R115-2 0402WGF6802TCE-2 Input   
+R120-1 0402WGF1004TCE-1 Input   
+U108-12 TMUX1511PWR-S4 Input   
+)
+(
+P_PRI_CT 
+U103-4 TPS22918DBVR-CT Passive 
+C106-1 0402B102K500NT-1 Input   
+)
+(
+P_PRI_VDD 
+U103-5 TPS22918DBVR-QOD Passive 
+U103-6 TPS22918DBVR-VOUT Passive 
+C108-1 CL05B104KO5NNNC-1 Passive 
+U110-2 SN74LVC1G08DBVR-B Passive 
+U106-5 ICS-43434_C5656610-VDD Passive 
+C111-1 CL05B104KO5NNNC-1 Passive 
+)
+(
+P_MIC_SEL 
+U110-4 SN74LVC1G08DBVR-Y Passive 
+U104-1 TMUX1511PWR-SEL1 Input   
+U104-4 TMUX1511PWR-SEL2 Input   
+U104-10 TMUX1511PWR-SEL3 Input   
+)
+(
+P_CLK_LOC 
+U104-2 TMUX1511PWR-S1 Input   
+U106-4 ICS-43434_C5656610-SCK Passive 
+R116-1 0402WGF1003TCE-1 Input   
+)
+(
+P_SYNC_LOC 
+U104-5 TMUX1511PWR-S2 Input   
+U106-1 ICS-43434_C5656610-WS Passive 
+R117-1 0402WGF1003TCE-1 Input   
+)
+(
+P_SD_LOC 
+U104-9 TMUX1511PWR-S3 Input   
+U106-6 ICS-43434_C5656610-SD Passive 
+R118-1 0402WGF1003TCE-1 Input   
+)
+(
+P_MOD_FLT_N 
+U107-4 TPS2553DBVR-1-FAULT# Input   
+R112-2 0402WGF1003TCE-2 Input   
+)
+(
+P_MOD_ILIM 
+U107-5 TPS2553DBVR-1-ILIM Input   
+R111-1 0402WGF9312TCE-1 Input   
+)
+(
+P_MOD_3V3 
+U107-6 TPS2553DBVR-1-OUT Input   
+C113-1 CL21A106KOQNNNE-1 Input   
+U111-2 SN74LVC1G08DBVR-B Passive 
+U105-3 SHT45-AD1B-R2-VDD Passive 
+U109-1 B4B-PH-K-S(LF)(SN)-1 Passive 
+D101-4 TPD4E05U06DQAR-D2+ Passive 
+C110-1 CL05B104KO5NNNC-1 Passive 
+)
+(
+P_MOD_SEL 
+U111-4 SN74LVC1G08DBVR-Y Passive 
+U108-1 TMUX1511PWR-SEL1 Input   
+U108-4 TMUX1511PWR-SEL2 Input   
+)
+(
+P_MOD_SCL 
+U108-2 TMUX1511PWR-S1 Input   
+U105-2 SHT45-AD1B-R2-SCL Passive 
+U109-4 B4B-PH-K-S(LF)(SN)-4 Passive 
+D101-2 TPD4E05U06DQAR-D1- Passive 
+)
+(
+P_MOD_SDA 
+U108-5 TMUX1511PWR-S2 Input   
+U105-1 SHT45-AD1B-R2-SDA Passive 
+U109-3 B4B-PH-K-S(LF)(SN)-3 Passive 
+D101-1 TPD4E05U06DQAR-D1+ Passive 
+)
